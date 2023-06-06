@@ -5,6 +5,7 @@ items:
   id: PluginAPI.Enums
   children:
   - PluginAPI.Enums.CommandType
+  - PluginAPI.Enums.DamageType
   - PluginAPI.Enums.LoadPriority
   - PluginAPI.Enums.LogType
   - PluginAPI.Enums.RoleRegisterType
@@ -25,6 +26,12 @@ references:
   name: CommandType
   nameWithType: CommandType
   fullName: PluginAPI.Enums.CommandType
+- uid: PluginAPI.Enums.DamageType
+  commentId: T:PluginAPI.Enums.DamageType
+  parent: PluginAPI.Enums
+  name: DamageType
+  nameWithType: DamageType
+  fullName: PluginAPI.Enums.DamageType
 - uid: PluginAPI.Enums.LoadPriority
   commentId: T:PluginAPI.Enums.LoadPriority
   parent: PluginAPI.Enums

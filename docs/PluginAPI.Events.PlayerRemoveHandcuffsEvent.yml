@@ -7,6 +7,7 @@ items:
   children:
   - PluginAPI.Events.PlayerRemoveHandcuffsEvent.#ctor(ReferenceHub,ReferenceHub)
   - PluginAPI.Events.PlayerRemoveHandcuffsEvent.BaseType
+  - PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
   - PluginAPI.Events.PlayerRemoveHandcuffsEvent.Player
   - PluginAPI.Events.PlayerRemoveHandcuffsEvent.Target
   langs:
@@ -18,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerRemoveHandcuffsEvent
-    path: ../NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Target
-    path: ../NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -157,6 +158,41 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  commentId: P:PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  id: CanRemoveHandcuffsAsScp
+  parent: PluginAPI.Events.PlayerRemoveHandcuffsEvent
+  langs:
+  - csharp
+  - vb
+  name: CanRemoveHandcuffsAsScp
+  nameWithType: PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  fullName: PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  type: Property
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: CanRemoveHandcuffsAsScp
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 13
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public bool CanRemoveHandcuffsAsScp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanRemoveHandcuffsAsScp As Boolean
+  overload: PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: PluginAPI.Events.PlayerRemoveHandcuffsEvent.#ctor(ReferenceHub,ReferenceHub)
   commentId: M:PluginAPI.Events.PlayerRemoveHandcuffsEvent.#ctor(ReferenceHub,ReferenceHub)
   id: '#ctor(ReferenceHub,ReferenceHub)'
@@ -170,12 +206,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerRemoveHandcuffsEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Player/PlayerRemoveHandcuffsEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -539,6 +575,18 @@ references:
   name: Target
   nameWithType: PlayerRemoveHandcuffsEvent.Target
   fullName: PluginAPI.Events.PlayerRemoveHandcuffsEvent.Target
+- uid: PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp*
+  commentId: Overload:PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  name: CanRemoveHandcuffsAsScp
+  nameWithType: PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+  fullName: PluginAPI.Events.PlayerRemoveHandcuffsEvent.CanRemoveHandcuffsAsScp
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: PluginAPI.Events.PlayerRemoveHandcuffsEvent.#ctor*
   commentId: Overload:PluginAPI.Events.PlayerRemoveHandcuffsEvent.#ctor
   name: PlayerRemoveHandcuffsEvent

@@ -149,7 +149,7 @@ namespace PluginAPI.Core.Zones
 			Zone = zone;
 			Identifier = room;
 
-			var lightController = room.GetComponentInChildren<RoomLightController>();
+			var lightController = room.GetComponentInChildren<FlickerableLightController>();
 			if(lightController != null)
 				Lights = new RoomLight(lightController);
 

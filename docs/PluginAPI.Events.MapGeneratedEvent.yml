@@ -15,12 +15,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/MapGeneratedEvent.cs
+      path: NwPluginAPI/Events/Args/Map/MapGeneratedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: MapGeneratedEvent
-    path: ../NwPluginAPI/Events/Args/MapGeneratedEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Map/MapGeneratedEvent.cs
+    startLine: 4
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -60,12 +60,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/MapGeneratedEvent.cs
+      path: NwPluginAPI/Events/Args/Map/MapGeneratedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/MapGeneratedEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Map/MapGeneratedEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

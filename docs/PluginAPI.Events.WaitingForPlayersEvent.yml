@@ -15,12 +15,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/WaitingForPlayersEvent.cs
+      path: NwPluginAPI/Events/Args/Server/WaitingForPlayersEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: WaitingForPlayersEvent
-    path: ../NwPluginAPI/Events/Args/WaitingForPlayersEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Server/WaitingForPlayersEvent.cs
+    startLine: 4
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -60,12 +60,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/WaitingForPlayersEvent.cs
+      path: NwPluginAPI/Events/Args/Server/WaitingForPlayersEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/WaitingForPlayersEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Server/WaitingForPlayersEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

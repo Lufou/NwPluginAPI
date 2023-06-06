@@ -19,7 +19,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RoleManager
     path: ../NwPluginAPI/Roles/RoleManager.cs
-    startLine: 9
+    startLine: 2
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Roles

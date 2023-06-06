@@ -20,7 +20,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: IEventArguments
     path: ../NwPluginAPI/Events/IEventArguments.cs
-    startLine: 9
+    startLine: 4
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -51,7 +51,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
     path: ../NwPluginAPI/Events/IEventArguments.cs
-    startLine: 11
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

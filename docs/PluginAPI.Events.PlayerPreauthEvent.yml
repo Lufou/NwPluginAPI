@@ -24,12 +24,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerPreauthEvent
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -69,12 +69,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -106,12 +106,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: UserId
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -141,12 +141,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: IpAddress
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -176,12 +176,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Expiration
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -211,12 +211,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: CentralFlags
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -246,12 +246,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Region
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 42
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 17
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -281,12 +281,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Signature
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 44
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 19
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -316,12 +316,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ConnectionRequest
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 46
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 21
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -351,12 +351,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ReaderStartPosition
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 48
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 23
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -386,12 +386,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerPreauthEvent.cs
-    startLine: 51
+    path: ../NwPluginAPI/Events/Args/Player/PlayerPreauthEvent.cs
+    startLine: 26
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

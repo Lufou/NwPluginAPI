@@ -19,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: CassieAnnouncesScpTerminationEvent
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -64,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -136,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: DamageHandler
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -171,12 +171,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Announcement
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -206,12 +206,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
+      path: NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/CassieAnnouncesScpTerminationEvent.cs
-    startLine: 41
+    path: ../NwPluginAPI/Events/Args/Map/CassieAnnouncesScpTerminationEvent.cs
+    startLine: 18
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

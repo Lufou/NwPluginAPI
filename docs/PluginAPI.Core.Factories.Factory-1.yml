@@ -9,6 +9,7 @@ items:
   - PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
   - PluginAPI.Core.Factories.Factory`1.DefaultServer
   - PluginAPI.Core.Factories.Factory`1.Get
+  - PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
   - PluginAPI.Core.Factories.Factory`1.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
   langs:
   - csharp
@@ -229,6 +230,47 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: PluginAPI.Core.Factories.Factory(Of T).GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+- uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  id: Get(PluginAPI.Core.Interfaces.IGameComponent)
+  parent: PluginAPI.Core.Factories.Factory`1
+  langs:
+  - csharp
+  - vb
+  name: Get(IGameComponent)
+  nameWithType: Factory<T>.Get(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<T>.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  type: Method
+  source:
+    remote:
+      path: NwPluginAPI/Core/Factories/Factory.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Get
+    path: ../NwPluginAPI/Core/Factories/Factory.cs
+    startLine: 58
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Core.Factories
+  summary: "\nGets entity from factory.\n"
+  example: []
+  syntax:
+    content: public T Get(IGameComponent component)
+    parameters:
+    - id: component
+      type: PluginAPI.Core.Interfaces.IGameComponent
+      description: The game component.
+    return:
+      type: '{T}'
+      description: Entity.
+    content.vb: Public Function Get(component As IGameComponent) As T
+  overload: PluginAPI.Core.Factories.Factory`1.Get*
+  nameWithType.vb: Factory(Of T).Get(IGameComponent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of T).Get(PluginAPI.Core.Interfaces.IGameComponent)
 - uid: PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   commentId: M:PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   id: AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
@@ -247,7 +289,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: AddIfNotExists
     path: ../NwPluginAPI/Core/Factories/Factory.cs
-    startLine: 57
+    startLine: 78
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Factories

@@ -5,7 +5,7 @@ items:
   id: PlayerChangeRadioRangeEvent
   parent: PluginAPI.Events
   children:
-  - PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,System.Byte)
+  - PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel)
   - PluginAPI.Events.PlayerChangeRadioRangeEvent.BaseType
   - PluginAPI.Events.PlayerChangeRadioRangeEvent.Player
   - PluginAPI.Events.PlayerChangeRadioRangeEvent.Radio
@@ -19,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerChangeRadioRangeEvent
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -64,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -136,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Radio
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -171,21 +171,21 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Range
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public byte Range { get; set; }
+    content: public RadioMessages.RadioRangeLevel Range { get; set; }
     parameters: []
     return:
-      type: System.Byte
-    content.vb: Public Property Range As Byte
+      type: InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel
+    content.vb: Public Property Range As RadioMessages.RadioRangeLevel
   overload: PluginAPI.Events.PlayerChangeRadioRangeEvent.Range*
   modifiers.csharp:
   - public
@@ -193,38 +193,38 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,System.Byte)
-  commentId: M:PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,System.Byte)
-  id: '#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,System.Byte)'
+- uid: PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel)
+  commentId: M:PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel)
+  id: '#ctor(ReferenceHub,InventorySystem.Items.Radio.RadioItem,InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel)'
   parent: PluginAPI.Events.PlayerChangeRadioRangeEvent
   langs:
   - csharp
   - vb
-  name: PlayerChangeRadioRangeEvent(ReferenceHub, RadioItem, Byte)
-  nameWithType: PlayerChangeRadioRangeEvent.PlayerChangeRadioRangeEvent(ReferenceHub, RadioItem, Byte)
-  fullName: PluginAPI.Events.PlayerChangeRadioRangeEvent.PlayerChangeRadioRangeEvent(ReferenceHub, InventorySystem.Items.Radio.RadioItem, System.Byte)
+  name: PlayerChangeRadioRangeEvent(ReferenceHub, RadioItem, RadioMessages.RadioRangeLevel)
+  nameWithType: PlayerChangeRadioRangeEvent.PlayerChangeRadioRangeEvent(ReferenceHub, RadioItem, RadioMessages.RadioRangeLevel)
+  fullName: PluginAPI.Events.PlayerChangeRadioRangeEvent.PlayerChangeRadioRangeEvent(ReferenceHub, InventorySystem.Items.Radio.RadioItem, InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel)
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRadioRangeEvent.cs
-    startLine: 41
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRadioRangeEvent.cs
+    startLine: 19
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public PlayerChangeRadioRangeEvent(ReferenceHub hub, RadioItem radio, byte range)
+    content: public PlayerChangeRadioRangeEvent(ReferenceHub hub, RadioItem radio, RadioMessages.RadioRangeLevel range)
     parameters:
     - id: hub
       type: ReferenceHub
     - id: radio
       type: InventorySystem.Items.Radio.RadioItem
     - id: range
-      type: System.Byte
-    content.vb: Public Sub New(hub As ReferenceHub, radio As RadioItem, range As Byte)
+      type: InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel
+    content.vb: Public Sub New(hub As ReferenceHub, radio As RadioItem, range As RadioMessages.RadioRangeLevel)
   overload: PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor*
   modifiers.csharp:
   - public
@@ -595,13 +595,13 @@ references:
   name: Range
   nameWithType: PlayerChangeRadioRangeEvent.Range
   fullName: PluginAPI.Events.PlayerChangeRadioRangeEvent.Range
-- uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
+- uid: InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel
+  commentId: T:InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel
+  parent: InventorySystem.Items.Radio
   isExternal: true
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
+  name: RadioMessages.RadioRangeLevel
+  nameWithType: RadioMessages.RadioRangeLevel
+  fullName: InventorySystem.Items.Radio.RadioMessages.RadioRangeLevel
 - uid: PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor*
   commentId: Overload:PluginAPI.Events.PlayerChangeRadioRangeEvent.#ctor
   name: PlayerChangeRadioRangeEvent

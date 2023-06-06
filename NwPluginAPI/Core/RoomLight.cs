@@ -7,13 +7,13 @@ namespace PluginAPI.Core
 	/// </summary>
 	public class RoomLight
 	{
-		private readonly RoomLightController _lightController;
+		private readonly FlickerableLightController _lightController;
 		private Color? _defaultLightColor;
 
 		private void SaveDefaultColor()
 		{
 			if (!_defaultLightColor.HasValue)
-				_defaultLightColor = _lightController.OverrideColor;
+				_defaultLightColor = _lightController.Network_warheadLightColor;
 		}
 
 		/// <summary>
@@ -45,7 +45,7 @@ namespace PluginAPI.Core
 			set
 			{
 				SaveDefaultColor();
-				_lightController.OverrideColor = value;
+				_lightController.Network_warheadLightColor = value;
 			}
 		}
 
@@ -74,6 +74,6 @@ namespace PluginAPI.Core
 		/// Initializes a new instance of the <see cref="RoomLight"/> class.
 		/// </summary>
 		/// <param name="lightController">The light controller for room.</param>
-		public RoomLight(RoomLightController lightController) => _lightController = lightController;
+		public RoomLight(FlickerableLightController lightController) => _lightController = lightController;
 	}
 }

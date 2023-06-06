@@ -1,0 +1,1665 @@
+### YamlMime:ManagedReference
+items:
+- uid: PluginAPI.Enums.DamageType
+  commentId: T:PluginAPI.Enums.DamageType
+  id: DamageType
+  parent: PluginAPI.Enums
+  children:
+  - PluginAPI.Enums.DamageType.AK
+  - PluginAPI.Enums.DamageType.Asphyxiated
+  - PluginAPI.Enums.DamageType.Bleeding
+  - PluginAPI.Enums.DamageType.CardiacArrest
+  - PluginAPI.Enums.DamageType.Checkpoint
+  - PluginAPI.Enums.DamageType.Com15
+  - PluginAPI.Enums.DamageType.COM18
+  - PluginAPI.Enums.DamageType.Com45
+  - PluginAPI.Enums.DamageType.Crossvec
+  - PluginAPI.Enums.DamageType.Custom
+  - PluginAPI.Enums.DamageType.Decontamination
+  - PluginAPI.Enums.DamageType.E11SR
+  - PluginAPI.Enums.DamageType.Explosion
+  - PluginAPI.Enums.DamageType.Falldown
+  - PluginAPI.Enums.DamageType.Firearm
+  - PluginAPI.Enums.DamageType.ForcedDeath
+  - PluginAPI.Enums.DamageType.FriendlyFireDetector
+  - PluginAPI.Enums.DamageType.FSP9
+  - PluginAPI.Enums.DamageType.GrenadeExplosion
+  - PluginAPI.Enums.DamageType.Hemorrhage
+  - PluginAPI.Enums.DamageType.Hypothermia
+  - PluginAPI.Enums.DamageType.Jailbird
+  - PluginAPI.Enums.DamageType.Logicer
+  - PluginAPI.Enums.DamageType.MicroHID
+  - PluginAPI.Enums.DamageType.MolecularDisruptor
+  - PluginAPI.Enums.DamageType.PlayerLeft
+  - PluginAPI.Enums.DamageType.PocketDecay
+  - PluginAPI.Enums.DamageType.Poisoned
+  - PluginAPI.Enums.DamageType.Recontain079
+  - PluginAPI.Enums.DamageType.Recontainment
+  - PluginAPI.Enums.DamageType.Revolver
+  - PluginAPI.Enums.DamageType.Scp018
+  - PluginAPI.Enums.DamageType.Scp049
+  - PluginAPI.Enums.DamageType.Scp0492
+  - PluginAPI.Enums.DamageType.Scp096Charge
+  - PluginAPI.Enums.DamageType.Scp096GateKill
+  - PluginAPI.Enums.DamageType.Scp096SlapLeft
+  - PluginAPI.Enums.DamageType.Scp096SlapRight
+  - PluginAPI.Enums.DamageType.Scp106
+  - PluginAPI.Enums.DamageType.Scp173
+  - PluginAPI.Enums.DamageType.Scp207
+  - PluginAPI.Enums.DamageType.Scp939Claw
+  - PluginAPI.Enums.DamageType.Scp939LungeSecondary
+  - PluginAPI.Enums.DamageType.Scp939LungeTarget
+  - PluginAPI.Enums.DamageType.SeveredHands
+  - PluginAPI.Enums.DamageType.Shotgun
+  - PluginAPI.Enums.DamageType.Tesla
+  - PluginAPI.Enums.DamageType.Universal
+  - PluginAPI.Enums.DamageType.Warhead
+  langs:
+  - csharp
+  - vb
+  name: DamageType
+  nameWithType: DamageType
+  fullName: PluginAPI.Enums.DamageType
+  type: Enum
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: DamageType
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 11
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  summary: "\nThis is used to easily identify damage handlers without needlessly casting them.\n"
+  example: []
+  syntax:
+    content: public enum DamageType
+    content.vb: Public Enum DamageType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: PluginAPI.Enums.DamageType.Custom
+  commentId: F:PluginAPI.Enums.DamageType.Custom
+  id: Custom
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DamageType.Custom
+  fullName: PluginAPI.Enums.DamageType.Custom
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Custom
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 13
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Custom = 0
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Firearm
+  commentId: F:PluginAPI.Enums.DamageType.Firearm
+  id: Firearm
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Firearm
+  nameWithType: DamageType.Firearm
+  fullName: PluginAPI.Enums.DamageType.Firearm
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Firearm
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 14
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Firearm = 1
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Com15
+  commentId: F:PluginAPI.Enums.DamageType.Com15
+  id: Com15
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Com15
+  nameWithType: DamageType.Com15
+  fullName: PluginAPI.Enums.DamageType.Com15
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Com15
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 15
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Com15 = 2
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.MicroHID
+  commentId: F:PluginAPI.Enums.DamageType.MicroHID
+  id: MicroHID
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: MicroHID
+  nameWithType: DamageType.MicroHID
+  fullName: PluginAPI.Enums.DamageType.MicroHID
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: MicroHID
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 16
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: MicroHID = 3
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.E11SR
+  commentId: F:PluginAPI.Enums.DamageType.E11SR
+  id: E11SR
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: E11SR
+  nameWithType: DamageType.E11SR
+  fullName: PluginAPI.Enums.DamageType.E11SR
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: E11SR
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 17
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: E11SR = 4
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Crossvec
+  commentId: F:PluginAPI.Enums.DamageType.Crossvec
+  id: Crossvec
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Crossvec
+  nameWithType: DamageType.Crossvec
+  fullName: PluginAPI.Enums.DamageType.Crossvec
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Crossvec
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 18
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Crossvec = 5
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.FSP9
+  commentId: F:PluginAPI.Enums.DamageType.FSP9
+  id: FSP9
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: FSP9
+  nameWithType: DamageType.FSP9
+  fullName: PluginAPI.Enums.DamageType.FSP9
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: FSP9
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 19
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: FSP9 = 6
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Logicer
+  commentId: F:PluginAPI.Enums.DamageType.Logicer
+  id: Logicer
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Logicer
+  nameWithType: DamageType.Logicer
+  fullName: PluginAPI.Enums.DamageType.Logicer
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Logicer
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 20
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Logicer = 7
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.COM18
+  commentId: F:PluginAPI.Enums.DamageType.COM18
+  id: COM18
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: COM18
+  nameWithType: DamageType.COM18
+  fullName: PluginAPI.Enums.DamageType.COM18
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: COM18
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 21
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: COM18 = 8
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Revolver
+  commentId: F:PluginAPI.Enums.DamageType.Revolver
+  id: Revolver
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Revolver
+  nameWithType: DamageType.Revolver
+  fullName: PluginAPI.Enums.DamageType.Revolver
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Revolver
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 22
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Revolver = 9
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.AK
+  commentId: F:PluginAPI.Enums.DamageType.AK
+  id: AK
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: AK
+  nameWithType: DamageType.AK
+  fullName: PluginAPI.Enums.DamageType.AK
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: AK
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 23
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: AK = 10
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Shotgun
+  commentId: F:PluginAPI.Enums.DamageType.Shotgun
+  id: Shotgun
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Shotgun
+  nameWithType: DamageType.Shotgun
+  fullName: PluginAPI.Enums.DamageType.Shotgun
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Shotgun
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 24
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Shotgun = 11
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.MolecularDisruptor
+  commentId: F:PluginAPI.Enums.DamageType.MolecularDisruptor
+  id: MolecularDisruptor
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: MolecularDisruptor
+  nameWithType: DamageType.MolecularDisruptor
+  fullName: PluginAPI.Enums.DamageType.MolecularDisruptor
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: MolecularDisruptor
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 25
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: MolecularDisruptor = 12
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Com45
+  commentId: F:PluginAPI.Enums.DamageType.Com45
+  id: Com45
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Com45
+  nameWithType: DamageType.Com45
+  fullName: PluginAPI.Enums.DamageType.Com45
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Com45
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 26
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Com45 = 13
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Jailbird
+  commentId: F:PluginAPI.Enums.DamageType.Jailbird
+  id: Jailbird
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Jailbird
+  nameWithType: DamageType.Jailbird
+  fullName: PluginAPI.Enums.DamageType.Jailbird
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Jailbird
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 27
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Jailbird = 14
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Explosion
+  commentId: F:PluginAPI.Enums.DamageType.Explosion
+  id: Explosion
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Explosion
+  nameWithType: DamageType.Explosion
+  fullName: PluginAPI.Enums.DamageType.Explosion
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Explosion
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 28
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Explosion = 15
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.GrenadeExplosion
+  commentId: F:PluginAPI.Enums.DamageType.GrenadeExplosion
+  id: GrenadeExplosion
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: GrenadeExplosion
+  nameWithType: DamageType.GrenadeExplosion
+  fullName: PluginAPI.Enums.DamageType.GrenadeExplosion
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: GrenadeExplosion
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 29
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: GrenadeExplosion = 16
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Recontainment
+  commentId: F:PluginAPI.Enums.DamageType.Recontainment
+  id: Recontainment
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Recontainment
+  nameWithType: DamageType.Recontainment
+  fullName: PluginAPI.Enums.DamageType.Recontainment
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Recontainment
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 30
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Recontainment = 17
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Recontain079
+  commentId: F:PluginAPI.Enums.DamageType.Recontain079
+  id: Recontain079
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Recontain079
+  nameWithType: DamageType.Recontain079
+  fullName: PluginAPI.Enums.DamageType.Recontain079
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Recontain079
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 31
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Recontain079 = 18
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Universal
+  commentId: F:PluginAPI.Enums.DamageType.Universal
+  id: Universal
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Universal
+  nameWithType: DamageType.Universal
+  fullName: PluginAPI.Enums.DamageType.Universal
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Universal
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 32
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Universal = 19
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Asphyxiated
+  commentId: F:PluginAPI.Enums.DamageType.Asphyxiated
+  id: Asphyxiated
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Asphyxiated
+  nameWithType: DamageType.Asphyxiated
+  fullName: PluginAPI.Enums.DamageType.Asphyxiated
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Asphyxiated
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 33
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Asphyxiated = 20
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Bleeding
+  commentId: F:PluginAPI.Enums.DamageType.Bleeding
+  id: Bleeding
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Bleeding
+  nameWithType: DamageType.Bleeding
+  fullName: PluginAPI.Enums.DamageType.Bleeding
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Bleeding
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 34
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Bleeding = 21
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.PocketDecay
+  commentId: F:PluginAPI.Enums.DamageType.PocketDecay
+  id: PocketDecay
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: PocketDecay
+  nameWithType: DamageType.PocketDecay
+  fullName: PluginAPI.Enums.DamageType.PocketDecay
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: PocketDecay
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 35
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: PocketDecay = 22
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Decontamination
+  commentId: F:PluginAPI.Enums.DamageType.Decontamination
+  id: Decontamination
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Decontamination
+  nameWithType: DamageType.Decontamination
+  fullName: PluginAPI.Enums.DamageType.Decontamination
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Decontamination
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 36
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Decontamination = 23
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Hemorrhage
+  commentId: F:PluginAPI.Enums.DamageType.Hemorrhage
+  id: Hemorrhage
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Hemorrhage
+  nameWithType: DamageType.Hemorrhage
+  fullName: PluginAPI.Enums.DamageType.Hemorrhage
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Hemorrhage
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 37
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Hemorrhage = 24
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Poisoned
+  commentId: F:PluginAPI.Enums.DamageType.Poisoned
+  id: Poisoned
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Poisoned
+  nameWithType: DamageType.Poisoned
+  fullName: PluginAPI.Enums.DamageType.Poisoned
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Poisoned
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 38
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Poisoned = 25
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.SeveredHands
+  commentId: F:PluginAPI.Enums.DamageType.SeveredHands
+  id: SeveredHands
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: SeveredHands
+  nameWithType: DamageType.SeveredHands
+  fullName: PluginAPI.Enums.DamageType.SeveredHands
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: SeveredHands
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 39
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: SeveredHands = 26
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Checkpoint
+  commentId: F:PluginAPI.Enums.DamageType.Checkpoint
+  id: Checkpoint
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Checkpoint
+  nameWithType: DamageType.Checkpoint
+  fullName: PluginAPI.Enums.DamageType.Checkpoint
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Checkpoint
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 40
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Checkpoint = 27
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.FriendlyFireDetector
+  commentId: F:PluginAPI.Enums.DamageType.FriendlyFireDetector
+  id: FriendlyFireDetector
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: FriendlyFireDetector
+  nameWithType: DamageType.FriendlyFireDetector
+  fullName: PluginAPI.Enums.DamageType.FriendlyFireDetector
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: FriendlyFireDetector
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 41
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: FriendlyFireDetector = 28
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Hypothermia
+  commentId: F:PluginAPI.Enums.DamageType.Hypothermia
+  id: Hypothermia
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Hypothermia
+  nameWithType: DamageType.Hypothermia
+  fullName: PluginAPI.Enums.DamageType.Hypothermia
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Hypothermia
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 42
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Hypothermia = 29
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.CardiacArrest
+  commentId: F:PluginAPI.Enums.DamageType.CardiacArrest
+  id: CardiacArrest
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: CardiacArrest
+  nameWithType: DamageType.CardiacArrest
+  fullName: PluginAPI.Enums.DamageType.CardiacArrest
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: CardiacArrest
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 43
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: CardiacArrest = 30
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Falldown
+  commentId: F:PluginAPI.Enums.DamageType.Falldown
+  id: Falldown
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Falldown
+  nameWithType: DamageType.Falldown
+  fullName: PluginAPI.Enums.DamageType.Falldown
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Falldown
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 44
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Falldown = 31
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Tesla
+  commentId: F:PluginAPI.Enums.DamageType.Tesla
+  id: Tesla
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Tesla
+  nameWithType: DamageType.Tesla
+  fullName: PluginAPI.Enums.DamageType.Tesla
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Tesla
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 45
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Tesla = 32
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp207
+  commentId: F:PluginAPI.Enums.DamageType.Scp207
+  id: Scp207
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp207
+  nameWithType: DamageType.Scp207
+  fullName: PluginAPI.Enums.DamageType.Scp207
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp207
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 46
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp207 = 33
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp173
+  commentId: F:PluginAPI.Enums.DamageType.Scp173
+  id: Scp173
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp173
+  nameWithType: DamageType.Scp173
+  fullName: PluginAPI.Enums.DamageType.Scp173
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp173
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 47
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp173 = 34
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp106
+  commentId: F:PluginAPI.Enums.DamageType.Scp106
+  id: Scp106
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp106
+  nameWithType: DamageType.Scp106
+  fullName: PluginAPI.Enums.DamageType.Scp106
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp106
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 48
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp106 = 35
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp049
+  commentId: F:PluginAPI.Enums.DamageType.Scp049
+  id: Scp049
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp049
+  nameWithType: DamageType.Scp049
+  fullName: PluginAPI.Enums.DamageType.Scp049
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp049
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 49
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp049 = 36
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp096GateKill
+  commentId: F:PluginAPI.Enums.DamageType.Scp096GateKill
+  id: Scp096GateKill
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp096GateKill
+  nameWithType: DamageType.Scp096GateKill
+  fullName: PluginAPI.Enums.DamageType.Scp096GateKill
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp096GateKill
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 50
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp096GateKill = 37
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp096SlapLeft
+  commentId: F:PluginAPI.Enums.DamageType.Scp096SlapLeft
+  id: Scp096SlapLeft
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp096SlapLeft
+  nameWithType: DamageType.Scp096SlapLeft
+  fullName: PluginAPI.Enums.DamageType.Scp096SlapLeft
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp096SlapLeft
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 51
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp096SlapLeft = 38
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp096SlapRight
+  commentId: F:PluginAPI.Enums.DamageType.Scp096SlapRight
+  id: Scp096SlapRight
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp096SlapRight
+  nameWithType: DamageType.Scp096SlapRight
+  fullName: PluginAPI.Enums.DamageType.Scp096SlapRight
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp096SlapRight
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 52
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp096SlapRight = 39
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp096Charge
+  commentId: F:PluginAPI.Enums.DamageType.Scp096Charge
+  id: Scp096Charge
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp096Charge
+  nameWithType: DamageType.Scp096Charge
+  fullName: PluginAPI.Enums.DamageType.Scp096Charge
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp096Charge
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 53
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp096Charge = 40
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp0492
+  commentId: F:PluginAPI.Enums.DamageType.Scp0492
+  id: Scp0492
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp0492
+  nameWithType: DamageType.Scp0492
+  fullName: PluginAPI.Enums.DamageType.Scp0492
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp0492
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 54
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp0492 = 41
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp939Claw
+  commentId: F:PluginAPI.Enums.DamageType.Scp939Claw
+  id: Scp939Claw
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp939Claw
+  nameWithType: DamageType.Scp939Claw
+  fullName: PluginAPI.Enums.DamageType.Scp939Claw
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp939Claw
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 55
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp939Claw = 42
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp939LungeTarget
+  commentId: F:PluginAPI.Enums.DamageType.Scp939LungeTarget
+  id: Scp939LungeTarget
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp939LungeTarget
+  nameWithType: DamageType.Scp939LungeTarget
+  fullName: PluginAPI.Enums.DamageType.Scp939LungeTarget
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp939LungeTarget
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 56
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp939LungeTarget = 43
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp939LungeSecondary
+  commentId: F:PluginAPI.Enums.DamageType.Scp939LungeSecondary
+  id: Scp939LungeSecondary
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp939LungeSecondary
+  nameWithType: DamageType.Scp939LungeSecondary
+  fullName: PluginAPI.Enums.DamageType.Scp939LungeSecondary
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp939LungeSecondary
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 57
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp939LungeSecondary = 44
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Scp018
+  commentId: F:PluginAPI.Enums.DamageType.Scp018
+  id: Scp018
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Scp018
+  nameWithType: DamageType.Scp018
+  fullName: PluginAPI.Enums.DamageType.Scp018
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Scp018
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 58
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Scp018 = 45
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.Warhead
+  commentId: F:PluginAPI.Enums.DamageType.Warhead
+  id: Warhead
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: Warhead
+  nameWithType: DamageType.Warhead
+  fullName: PluginAPI.Enums.DamageType.Warhead
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Warhead
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 59
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: Warhead = 46
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.PlayerLeft
+  commentId: F:PluginAPI.Enums.DamageType.PlayerLeft
+  id: PlayerLeft
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: PlayerLeft
+  nameWithType: DamageType.PlayerLeft
+  fullName: PluginAPI.Enums.DamageType.PlayerLeft
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: PlayerLeft
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 60
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: PlayerLeft = 47
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.DamageType.ForcedDeath
+  commentId: F:PluginAPI.Enums.DamageType.ForcedDeath
+  id: ForcedDeath
+  parent: PluginAPI.Enums.DamageType
+  langs:
+  - csharp
+  - vb
+  name: ForcedDeath
+  nameWithType: DamageType.ForcedDeath
+  fullName: PluginAPI.Enums.DamageType.ForcedDeath
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/DamageType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: ForcedDeath
+    path: ../NwPluginAPI/Enums/DamageType.cs
+    startLine: 61
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  syntax:
+    content: ForcedDeath = 48
+    return:
+      type: PluginAPI.Enums.DamageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: PluginAPI.Enums
+  commentId: N:PluginAPI.Enums
+  name: PluginAPI.Enums
+  nameWithType: PluginAPI.Enums
+  fullName: PluginAPI.Enums
+- uid: PluginAPI.Enums.DamageType
+  commentId: T:PluginAPI.Enums.DamageType
+  parent: PluginAPI.Enums
+  name: DamageType
+  nameWithType: DamageType
+  fullName: PluginAPI.Enums.DamageType

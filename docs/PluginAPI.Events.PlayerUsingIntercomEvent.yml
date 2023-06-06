@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerUsingIntercomEvent
-    path: ../NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: IntercomState
-    path: ../NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerUsingIntercomEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUsingIntercomEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

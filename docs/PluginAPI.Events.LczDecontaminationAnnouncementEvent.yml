@@ -17,12 +17,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
+      path: NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: LczDecontaminationAnnouncementEvent
-    path: ../NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
+    startLine: 5
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -62,12 +62,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
+      path: NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -99,12 +99,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
+      path: NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Id
-    path: ../NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -134,12 +134,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
+      path: NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/LczDecontaminationAnnouncementEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Map/LczDecontaminationAnnouncementEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

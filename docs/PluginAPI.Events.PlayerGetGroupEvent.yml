@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerGetGroupEvent
-    path: ../NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
+    startLine: 5
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: UserId
-    path: ../NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Group
-    path: ../NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerGetGroupEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGetGroupEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

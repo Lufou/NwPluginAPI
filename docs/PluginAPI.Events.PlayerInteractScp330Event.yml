@@ -5,9 +5,12 @@ items:
   id: PlayerInteractScp330Event
   parent: PluginAPI.Events
   children:
-  - PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub)
+  - PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub,System.Int32)
+  - PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
   - PluginAPI.Events.PlayerInteractScp330Event.BaseType
   - PluginAPI.Events.PlayerInteractScp330Event.Player
+  - PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+  - PluginAPI.Events.PlayerInteractScp330Event.Uses
   langs:
   - csharp
   - vb
@@ -17,12 +20,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerInteractScp330Event
-    path: ../NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -62,12 +65,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -99,12 +102,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -121,34 +124,141 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub)
-  commentId: M:PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub)
-  id: '#ctor(ReferenceHub)'
+- uid: PluginAPI.Events.PlayerInteractScp330Event.Uses
+  commentId: P:PluginAPI.Events.PlayerInteractScp330Event.Uses
+  id: Uses
   parent: PluginAPI.Events.PlayerInteractScp330Event
   langs:
   - csharp
   - vb
-  name: PlayerInteractScp330Event(ReferenceHub)
-  nameWithType: PlayerInteractScp330Event.PlayerInteractScp330Event(ReferenceHub)
-  fullName: PluginAPI.Events.PlayerInteractScp330Event.PlayerInteractScp330Event(ReferenceHub)
-  type: Constructor
+  name: Uses
+  nameWithType: PlayerInteractScp330Event.Uses
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.Uses
+  type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerInteractScp330Event.cs
-    startLine: 37
+    id: Uses
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public PlayerInteractScp330Event(ReferenceHub hub)
+    content: public int Uses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Uses As Integer
+  overload: PluginAPI.Events.PlayerInteractScp330Event.Uses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+  commentId: P:PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+  id: PlaySound
+  parent: PluginAPI.Events.PlayerInteractScp330Event
+  langs:
+  - csharp
+  - vb
+  name: PlaySound
+  nameWithType: PlayerInteractScp330Event.PlaySound
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+  type: Property
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: PlaySound
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 13
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public bool PlaySound { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PlaySound As Boolean
+  overload: PluginAPI.Events.PlayerInteractScp330Event.PlaySound*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
+  commentId: P:PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
+  id: AllowPunishment
+  parent: PluginAPI.Events.PlayerInteractScp330Event
+  langs:
+  - csharp
+  - vb
+  name: AllowPunishment
+  nameWithType: PlayerInteractScp330Event.AllowPunishment
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
+  type: Property
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: AllowPunishment
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 15
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public bool AllowPunishment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowPunishment As Boolean
+  overload: PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub,System.Int32)
+  commentId: M:PluginAPI.Events.PlayerInteractScp330Event.#ctor(ReferenceHub,System.Int32)
+  id: '#ctor(ReferenceHub,System.Int32)'
+  parent: PluginAPI.Events.PlayerInteractScp330Event
+  langs:
+  - csharp
+  - vb
+  name: PlayerInteractScp330Event(ReferenceHub, Int32)
+  nameWithType: PlayerInteractScp330Event.PlayerInteractScp330Event(ReferenceHub, Int32)
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.PlayerInteractScp330Event(ReferenceHub, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: .ctor
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractScp330Event.cs
+    startLine: 18
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public PlayerInteractScp330Event(ReferenceHub hub, int uses)
     parameters:
     - id: hub
       type: ReferenceHub
-    content.vb: Public Sub New(hub As ReferenceHub)
+    - id: uses
+      type: System.Int32
+    content.vb: Public Sub New(hub As ReferenceHub, uses As Integer)
   overload: PluginAPI.Events.PlayerInteractScp330Event.#ctor*
   modifiers.csharp:
   - public
@@ -496,6 +606,35 @@ references:
   name: PluginAPI.Core
   nameWithType: PluginAPI.Core
   fullName: PluginAPI.Core
+- uid: PluginAPI.Events.PlayerInteractScp330Event.Uses*
+  commentId: Overload:PluginAPI.Events.PlayerInteractScp330Event.Uses
+  name: Uses
+  nameWithType: PlayerInteractScp330Event.Uses
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.Uses
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: PluginAPI.Events.PlayerInteractScp330Event.PlaySound*
+  commentId: Overload:PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+  name: PlaySound
+  nameWithType: PlayerInteractScp330Event.PlaySound
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.PlaySound
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment*
+  commentId: Overload:PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
+  name: AllowPunishment
+  nameWithType: PlayerInteractScp330Event.AllowPunishment
+  fullName: PluginAPI.Events.PlayerInteractScp330Event.AllowPunishment
 - uid: PluginAPI.Events.PlayerInteractScp330Event.#ctor*
   commentId: Overload:PluginAPI.Events.PlayerInteractScp330Event.#ctor
   name: PlayerInteractScp330Event

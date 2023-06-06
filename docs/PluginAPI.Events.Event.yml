@@ -25,7 +25,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Event
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 13
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -68,7 +68,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Invokers
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 26
+    startLine: 24
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,7 +101,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Parameters
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 28
+    startLine: 26
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -134,7 +134,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: EventArg
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 30
+    startLine: 28
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -167,7 +167,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: EventArgType
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 31
+    startLine: 29
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -200,7 +200,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 37
+    startLine: 35
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -235,7 +235,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RegisterInvoker
     path: ../NwPluginAPI/Events/Event.cs
-    startLine: 59
+    startLine: 57
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

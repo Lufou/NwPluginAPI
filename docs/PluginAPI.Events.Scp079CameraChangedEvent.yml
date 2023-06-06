@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Scp079CameraChangedEvent
-    path: ../NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Camera
-    path: ../NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Scp079CameraChangedEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079CameraChangedEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

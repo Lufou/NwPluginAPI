@@ -28,21 +28,22 @@ items:
   summary: "\nA factory to create <xref href=\"PluginAPI.Core.Interfaces.IPlayer\" data-throw-if-not-resolved=\"false\"></xref>&apos;s.\n"
   example: []
   syntax:
-    content: 'public class PlayerFactory : Factory<IPlayer>, IEntityFactory<IPlayer>'
+    content: 'public class PlayerFactory : Factory<Player>, IEntityFactory<Player>'
     content.vb: >-
       Public Class PlayerFactory
-          Inherits Factory(Of IPlayer)
-          Implements IEntityFactory(Of IPlayer)
+          Inherits Factory(Of Player)
+          Implements IEntityFactory(Of Player)
   inheritance:
   - System.Object
-  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   implements:
-  - PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Interfaces.IPlayer}
+  - PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Player}
   inheritedMembers:
-  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Get
-  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.DefaultServer
-  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
-  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.DefaultServer
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  - PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -118,16 +119,16 @@ items:
   summary: "\nCreates a new <xref href=\"PluginAPI.Core.Interfaces.IPlayer\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
   example: []
   syntax:
-    content: public override IPlayer Create(IGameComponent component)
+    content: public override Player Create(IGameComponent component)
     parameters:
     - id: component
       type: PluginAPI.Core.Interfaces.IGameComponent
       description: The <xref href="PluginAPI.Core.Interfaces.IGameComponent" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: PluginAPI.Core.Interfaces.IPlayer
+      type: PluginAPI.Core.Player
       description: The created <xref href="PluginAPI.Core.Interfaces.IPlayer" data-throw-if-not-resolved="false"></xref>.
-    content.vb: Public Overrides Function Create(component As IGameComponent) As IPlayer
-  overridden: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Create(PluginAPI.Core.Interfaces.IGameComponent)
+    content.vb: Public Overrides Function Create(component As IGameComponent) As Player
+  overridden: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Create(PluginAPI.Core.Interfaces.IGameComponent)
   overload: PluginAPI.Core.Factories.PlayerFactory.Create*
   modifiers.csharp:
   - public
@@ -154,16 +155,16 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
-  commentId: T:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
+  commentId: T:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   parent: PluginAPI.Core.Factories
   definition: PluginAPI.Core.Factories.Factory`1
-  name: Factory<IPlayer>
-  nameWithType: Factory<IPlayer>
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>
-  nameWithType.vb: Factory(Of IPlayer)
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer)
-  name.vb: Factory(Of IPlayer)
+  name: Factory<Player>
+  nameWithType: Factory<Player>
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>
+  nameWithType.vb: Factory(Of Player)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player)
+  name.vb: Factory(Of Player)
   spec.csharp:
   - uid: PluginAPI.Core.Factories.Factory`1
     name: Factory
@@ -172,10 +173,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: PluginAPI.Core.Interfaces.IPlayer
-    name: IPlayer
-    nameWithType: IPlayer
-    fullName: PluginAPI.Core.Interfaces.IPlayer
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -187,23 +188,23 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: PluginAPI.Core.Interfaces.IPlayer
-    name: IPlayer
-    nameWithType: IPlayer
-    fullName: PluginAPI.Core.Interfaces.IPlayer
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
   - name: )
     nameWithType: )
     fullName: )
-- uid: PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Interfaces.IPlayer}
-  commentId: T:PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Player}
+  commentId: T:PluginAPI.Core.Factories.IEntityFactory{PluginAPI.Core.Player}
   parent: PluginAPI.Core.Factories
   definition: PluginAPI.Core.Factories.IEntityFactory`1
-  name: IEntityFactory<IPlayer>
-  nameWithType: IEntityFactory<IPlayer>
-  fullName: PluginAPI.Core.Factories.IEntityFactory<PluginAPI.Core.Interfaces.IPlayer>
-  nameWithType.vb: IEntityFactory(Of IPlayer)
-  fullName.vb: PluginAPI.Core.Factories.IEntityFactory(Of PluginAPI.Core.Interfaces.IPlayer)
-  name.vb: IEntityFactory(Of IPlayer)
+  name: IEntityFactory<Player>
+  nameWithType: IEntityFactory<Player>
+  fullName: PluginAPI.Core.Factories.IEntityFactory<PluginAPI.Core.Player>
+  nameWithType.vb: IEntityFactory(Of Player)
+  fullName.vb: PluginAPI.Core.Factories.IEntityFactory(Of PluginAPI.Core.Player)
+  name.vb: IEntityFactory(Of Player)
   spec.csharp:
   - uid: PluginAPI.Core.Factories.IEntityFactory`1
     name: IEntityFactory
@@ -212,10 +213,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: PluginAPI.Core.Interfaces.IPlayer
-    name: IPlayer
-    nameWithType: IPlayer
-    fullName: PluginAPI.Core.Interfaces.IPlayer
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -227,27 +228,27 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: PluginAPI.Core.Interfaces.IPlayer
-    name: IPlayer
-    nameWithType: IPlayer
-    fullName: PluginAPI.Core.Interfaces.IPlayer
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
   - name: )
     nameWithType: )
     fullName: )
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Get
-  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Get
-  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get
+  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   definition: PluginAPI.Core.Factories.Factory`1.Get
   name: Get()
-  nameWithType: Factory<IPlayer>.Get()
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.Get()
-  nameWithType.vb: Factory(Of IPlayer).Get()
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).Get()
+  nameWithType: Factory<Player>.Get()
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Get()
+  nameWithType.vb: Factory(Of Player).Get()
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Get()
   spec.csharp:
   - uid: PluginAPI.Core.Factories.Factory`1.Get
     name: Get
-    nameWithType: Factory<IPlayer>.Get
-    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.Get
+    nameWithType: Factory<Player>.Get
+    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Get
   - name: (
     nameWithType: (
     fullName: (
@@ -257,37 +258,37 @@ references:
   spec.vb:
   - uid: PluginAPI.Core.Factories.Factory`1.Get
     name: Get
-    nameWithType: Factory(Of IPlayer).Get
-    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).Get
+    nameWithType: Factory(Of Player).Get
+    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Get
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.DefaultServer
-  commentId: P:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.DefaultServer
-  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.DefaultServer
+  commentId: P:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.DefaultServer
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   definition: PluginAPI.Core.Factories.Factory`1.DefaultServer
   name: DefaultServer
-  nameWithType: Factory<IPlayer>.DefaultServer
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.DefaultServer
-  nameWithType.vb: Factory(Of IPlayer).DefaultServer
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).DefaultServer
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
-  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
-  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+  nameWithType: Factory<Player>.DefaultServer
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.DefaultServer
+  nameWithType.vb: Factory(Of Player).DefaultServer
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).DefaultServer
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   definition: PluginAPI.Core.Factories.Factory`1.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
   name: GetOrAdd(IGameComponent)
-  nameWithType: Factory<IPlayer>.GetOrAdd(IGameComponent)
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
-  nameWithType.vb: Factory(Of IPlayer).GetOrAdd(IGameComponent)
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType: Factory<Player>.GetOrAdd(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType.vb: Factory(Of Player).GetOrAdd(IGameComponent)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
   spec.csharp:
   - uid: PluginAPI.Core.Factories.Factory`1.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
     name: GetOrAdd
-    nameWithType: Factory<IPlayer>.GetOrAdd
-    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.GetOrAdd
+    nameWithType: Factory<Player>.GetOrAdd
+    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.GetOrAdd
   - name: (
     nameWithType: (
     fullName: (
@@ -301,8 +302,8 @@ references:
   spec.vb:
   - uid: PluginAPI.Core.Factories.Factory`1.GetOrAdd(PluginAPI.Core.Interfaces.IGameComponent)
     name: GetOrAdd
-    nameWithType: Factory(Of IPlayer).GetOrAdd
-    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).GetOrAdd
+    nameWithType: Factory(Of Player).GetOrAdd
+    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).GetOrAdd
   - name: (
     nameWithType: (
     fullName: (
@@ -313,20 +314,59 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
-  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
-  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
+  definition: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  name: Get(IGameComponent)
+  nameWithType: Factory<Player>.Get(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType.vb: Factory(Of Player).Get(IGameComponent)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Get(PluginAPI.Core.Interfaces.IGameComponent)
+  spec.csharp:
+  - uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+    name: Get
+    nameWithType: Factory<Player>.Get
+    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: PluginAPI.Core.Interfaces.IGameComponent
+    name: IGameComponent
+    nameWithType: IGameComponent
+    fullName: PluginAPI.Core.Interfaces.IGameComponent
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+    name: Get
+    nameWithType: Factory(Of Player).Get
+    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: PluginAPI.Core.Interfaces.IGameComponent
+    name: IGameComponent
+    nameWithType: IGameComponent
+    fullName: PluginAPI.Core.Interfaces.IGameComponent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   definition: PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   name: AddIfNotExists(IGameComponent)
-  nameWithType: Factory<IPlayer>.AddIfNotExists(IGameComponent)
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
-  nameWithType.vb: Factory(Of IPlayer).AddIfNotExists(IGameComponent)
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType: Factory<Player>.AddIfNotExists(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType.vb: Factory(Of Player).AddIfNotExists(IGameComponent)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   spec.csharp:
   - uid: PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
     name: AddIfNotExists
-    nameWithType: Factory<IPlayer>.AddIfNotExists
-    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.AddIfNotExists
+    nameWithType: Factory<Player>.AddIfNotExists
+    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.AddIfNotExists
   - name: (
     nameWithType: (
     fullName: (
@@ -340,8 +380,8 @@ references:
   spec.vb:
   - uid: PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
     name: AddIfNotExists
-    nameWithType: Factory(Of IPlayer).AddIfNotExists
-    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).AddIfNotExists
+    nameWithType: Factory(Of Player).AddIfNotExists
+    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).AddIfNotExists
   - name: (
     nameWithType: (
     fullName: (
@@ -787,6 +827,43 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  name: Get(IGameComponent)
+  nameWithType: Factory<T>.Get(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<T>.Get(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType.vb: Factory(Of T).Get(IGameComponent)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of T).Get(PluginAPI.Core.Interfaces.IGameComponent)
+  spec.csharp:
+  - uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+    name: Get
+    nameWithType: Factory<T>.Get
+    fullName: PluginAPI.Core.Factories.Factory<T>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: PluginAPI.Core.Interfaces.IGameComponent
+    name: IGameComponent
+    nameWithType: IGameComponent
+    fullName: PluginAPI.Core.Interfaces.IGameComponent
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: PluginAPI.Core.Factories.Factory`1.Get(PluginAPI.Core.Interfaces.IGameComponent)
+    name: Get
+    nameWithType: Factory(Of T).Get
+    fullName: PluginAPI.Core.Factories.Factory(Of T).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: PluginAPI.Core.Interfaces.IGameComponent
+    name: IGameComponent
+    nameWithType: IGameComponent
+    fullName: PluginAPI.Core.Interfaces.IGameComponent
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   commentId: M:PluginAPI.Core.Factories.Factory`1.AddIfNotExists(PluginAPI.Core.Interfaces.IGameComponent)
   name: AddIfNotExists(IGameComponent)
@@ -842,20 +919,20 @@ references:
   name: IGameComponent
   nameWithType: IGameComponent
   fullName: PluginAPI.Core.Interfaces.IGameComponent
-- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Create(PluginAPI.Core.Interfaces.IGameComponent)
-  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}.Create(PluginAPI.Core.Interfaces.IGameComponent)
-  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Interfaces.IPlayer}
+- uid: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Create(PluginAPI.Core.Interfaces.IGameComponent)
+  commentId: M:PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}.Create(PluginAPI.Core.Interfaces.IGameComponent)
+  parent: PluginAPI.Core.Factories.Factory{PluginAPI.Core.Player}
   definition: PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
   name: Create(IGameComponent)
-  nameWithType: Factory<IPlayer>.Create(IGameComponent)
-  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.Create(PluginAPI.Core.Interfaces.IGameComponent)
-  nameWithType.vb: Factory(Of IPlayer).Create(IGameComponent)
-  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).Create(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType: Factory<Player>.Create(IGameComponent)
+  fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Create(PluginAPI.Core.Interfaces.IGameComponent)
+  nameWithType.vb: Factory(Of Player).Create(IGameComponent)
+  fullName.vb: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Create(PluginAPI.Core.Interfaces.IGameComponent)
   spec.csharp:
   - uid: PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
     name: Create
-    nameWithType: Factory<IPlayer>.Create
-    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Interfaces.IPlayer>.Create
+    nameWithType: Factory<Player>.Create
+    fullName: PluginAPI.Core.Factories.Factory<PluginAPI.Core.Player>.Create
   - name: (
     nameWithType: (
     fullName: (
@@ -869,8 +946,8 @@ references:
   spec.vb:
   - uid: PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
     name: Create
-    nameWithType: Factory(Of IPlayer).Create
-    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Interfaces.IPlayer).Create
+    nameWithType: Factory(Of Player).Create
+    fullName: PluginAPI.Core.Factories.Factory(Of PluginAPI.Core.Player).Create
   - name: (
     nameWithType: (
     fullName: (
@@ -886,6 +963,12 @@ references:
   name: Create
   nameWithType: PlayerFactory.Create
   fullName: PluginAPI.Core.Factories.PlayerFactory.Create
+- uid: PluginAPI.Core.Player
+  commentId: T:PluginAPI.Core.Player
+  parent: PluginAPI.Core
+  name: Player
+  nameWithType: Player
+  fullName: PluginAPI.Core.Player
 - uid: PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
   commentId: M:PluginAPI.Core.Factories.Factory`1.Create(PluginAPI.Core.Interfaces.IGameComponent)
   name: Create(IGameComponent)
@@ -923,3 +1006,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: PluginAPI.Core
+  commentId: N:PluginAPI.Core
+  name: PluginAPI.Core
+  nameWithType: PluginAPI.Core
+  fullName: PluginAPI.Core

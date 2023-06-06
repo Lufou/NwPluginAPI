@@ -21,7 +21,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RoleRegisterType
     path: ../NwPluginAPI/Enums/RoleRegisterType.cs
-    startLine: 8
+    startLine: 2
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Enums
@@ -52,7 +52,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Override
     path: ../NwPluginAPI/Enums/RoleRegisterType.cs
-    startLine: 10
+    startLine: 4
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Enums
@@ -84,7 +84,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: AddNew
     path: ../NwPluginAPI/Enums/RoleRegisterType.cs
-    startLine: 11
+    startLine: 5
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Enums

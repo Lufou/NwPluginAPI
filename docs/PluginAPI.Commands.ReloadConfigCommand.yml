@@ -25,7 +25,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ReloadConfigCommand
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 15
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -73,7 +73,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Command
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 17
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -110,7 +110,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Aliases
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 18
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -147,7 +147,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Description
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 19
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -184,7 +184,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Usage
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 20
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -221,7 +221,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Instance
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 22
+    startLine: 17
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands
@@ -254,7 +254,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Execute
     path: ../NwPluginAPI/Commands/ReloadCommand.cs
-    startLine: 24
+    startLine: 19
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Commands

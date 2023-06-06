@@ -19,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Scp914UpgradePickupEvent
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -64,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Item
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -136,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: OutputPosition
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -171,12 +171,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: KnobSetting
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -206,12 +206,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Scp914UpgradePickupEvent.cs
-    startLine: 42
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914UpgradePickupEvent.cs
+    startLine: 18
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

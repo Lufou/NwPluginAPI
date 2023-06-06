@@ -44,6 +44,8 @@ items:
   - PluginAPI.Events.PlayerDeathEvent
   - PluginAPI.Events.PlayerDropAmmoEvent
   - PluginAPI.Events.PlayerDropItemEvent
+  - PluginAPI.Events.PlayerDroppedAmmoEvent
+  - PluginAPI.Events.PlayerDroppedItemEvent
   - PluginAPI.Events.PlayerDryfireWeaponEvent
   - PluginAPI.Events.PlayerDyingEvent
   - PluginAPI.Events.PlayerEnterPocketDimensionEvent
@@ -156,36 +158,11 @@ items:
   assemblies:
   - PluginAPI
 references:
-- uid: PluginAPI.Events.BanIssuedEvent
-  commentId: T:PluginAPI.Events.BanIssuedEvent
-  name: BanIssuedEvent
-  nameWithType: BanIssuedEvent
-  fullName: PluginAPI.Events.BanIssuedEvent
-- uid: PluginAPI.Events.BanRevokedEvent
-  commentId: T:PluginAPI.Events.BanRevokedEvent
-  name: BanRevokedEvent
-  nameWithType: BanRevokedEvent
-  fullName: PluginAPI.Events.BanRevokedEvent
-- uid: PluginAPI.Events.BanUpdatedEvent
-  commentId: T:PluginAPI.Events.BanUpdatedEvent
-  name: BanUpdatedEvent
-  nameWithType: BanUpdatedEvent
-  fullName: PluginAPI.Events.BanUpdatedEvent
 - uid: PluginAPI.Events.CassieAnnouncesScpTerminationEvent
   commentId: T:PluginAPI.Events.CassieAnnouncesScpTerminationEvent
   name: CassieAnnouncesScpTerminationEvent
   nameWithType: CassieAnnouncesScpTerminationEvent
   fullName: PluginAPI.Events.CassieAnnouncesScpTerminationEvent
-- uid: PluginAPI.Events.ConsoleCommandEvent
-  commentId: T:PluginAPI.Events.ConsoleCommandEvent
-  name: ConsoleCommandEvent
-  nameWithType: ConsoleCommandEvent
-  fullName: PluginAPI.Events.ConsoleCommandEvent
-- uid: PluginAPI.Events.ConsoleCommandExecutedEvent
-  commentId: T:PluginAPI.Events.ConsoleCommandExecutedEvent
-  name: ConsoleCommandExecutedEvent
-  nameWithType: ConsoleCommandExecutedEvent
-  fullName: PluginAPI.Events.ConsoleCommandExecutedEvent
 - uid: PluginAPI.Events.GeneratorActivatedEvent
   commentId: T:PluginAPI.Events.GeneratorActivatedEvent
   name: GeneratorActivatedEvent
@@ -321,6 +298,16 @@ references:
   name: PlayerDropItemEvent
   nameWithType: PlayerDropItemEvent
   fullName: PluginAPI.Events.PlayerDropItemEvent
+- uid: PluginAPI.Events.PlayerDroppedAmmoEvent
+  commentId: T:PluginAPI.Events.PlayerDroppedAmmoEvent
+  name: PlayerDroppedAmmoEvent
+  nameWithType: PlayerDroppedAmmoEvent
+  fullName: PluginAPI.Events.PlayerDroppedAmmoEvent
+- uid: PluginAPI.Events.PlayerDroppedItemEvent
+  commentId: T:PluginAPI.Events.PlayerDroppedItemEvent
+  name: PlayerDroppedItemEvent
+  nameWithType: PlayerDroppedItemEvent
+  fullName: PluginAPI.Events.PlayerDroppedItemEvent
 - uid: PluginAPI.Events.PlayerDryfireWeaponEvent
   commentId: T:PluginAPI.Events.PlayerDryfireWeaponEvent
   name: PlayerDryfireWeaponEvent
@@ -556,36 +543,6 @@ references:
   name: RagdollSpawnEvent
   nameWithType: RagdollSpawnEvent
   fullName: PluginAPI.Events.RagdollSpawnEvent
-- uid: PluginAPI.Events.RemoteAdminCommandEvent
-  commentId: T:PluginAPI.Events.RemoteAdminCommandEvent
-  name: RemoteAdminCommandEvent
-  nameWithType: RemoteAdminCommandEvent
-  fullName: PluginAPI.Events.RemoteAdminCommandEvent
-- uid: PluginAPI.Events.RemoteAdminCommandExecutedEvent
-  commentId: T:PluginAPI.Events.RemoteAdminCommandExecutedEvent
-  name: RemoteAdminCommandExecutedEvent
-  nameWithType: RemoteAdminCommandExecutedEvent
-  fullName: PluginAPI.Events.RemoteAdminCommandExecutedEvent
-- uid: PluginAPI.Events.RoundEndConditionsCheckEvent
-  commentId: T:PluginAPI.Events.RoundEndConditionsCheckEvent
-  name: RoundEndConditionsCheckEvent
-  nameWithType: RoundEndConditionsCheckEvent
-  fullName: PluginAPI.Events.RoundEndConditionsCheckEvent
-- uid: PluginAPI.Events.RoundEndEvent
-  commentId: T:PluginAPI.Events.RoundEndEvent
-  name: RoundEndEvent
-  nameWithType: RoundEndEvent
-  fullName: PluginAPI.Events.RoundEndEvent
-- uid: PluginAPI.Events.RoundRestartEvent
-  commentId: T:PluginAPI.Events.RoundRestartEvent
-  name: RoundRestartEvent
-  nameWithType: RoundRestartEvent
-  fullName: PluginAPI.Events.RoundRestartEvent
-- uid: PluginAPI.Events.RoundStartEvent
-  commentId: T:PluginAPI.Events.RoundStartEvent
-  name: RoundStartEvent
-  nameWithType: RoundStartEvent
-  fullName: PluginAPI.Events.RoundStartEvent
 - uid: PluginAPI.Events.Scp049ResurrectBodyEvent
   commentId: T:PluginAPI.Events.Scp049ResurrectBodyEvent
   name: Scp049ResurrectBodyEvent
@@ -766,6 +723,61 @@ references:
   name: Scp939LungeEvent
   nameWithType: Scp939LungeEvent
   fullName: PluginAPI.Events.Scp939LungeEvent
+- uid: PluginAPI.Events.BanIssuedEvent
+  commentId: T:PluginAPI.Events.BanIssuedEvent
+  name: BanIssuedEvent
+  nameWithType: BanIssuedEvent
+  fullName: PluginAPI.Events.BanIssuedEvent
+- uid: PluginAPI.Events.BanRevokedEvent
+  commentId: T:PluginAPI.Events.BanRevokedEvent
+  name: BanRevokedEvent
+  nameWithType: BanRevokedEvent
+  fullName: PluginAPI.Events.BanRevokedEvent
+- uid: PluginAPI.Events.BanUpdatedEvent
+  commentId: T:PluginAPI.Events.BanUpdatedEvent
+  name: BanUpdatedEvent
+  nameWithType: BanUpdatedEvent
+  fullName: PluginAPI.Events.BanUpdatedEvent
+- uid: PluginAPI.Events.ConsoleCommandEvent
+  commentId: T:PluginAPI.Events.ConsoleCommandEvent
+  name: ConsoleCommandEvent
+  nameWithType: ConsoleCommandEvent
+  fullName: PluginAPI.Events.ConsoleCommandEvent
+- uid: PluginAPI.Events.ConsoleCommandExecutedEvent
+  commentId: T:PluginAPI.Events.ConsoleCommandExecutedEvent
+  name: ConsoleCommandExecutedEvent
+  nameWithType: ConsoleCommandExecutedEvent
+  fullName: PluginAPI.Events.ConsoleCommandExecutedEvent
+- uid: PluginAPI.Events.RemoteAdminCommandEvent
+  commentId: T:PluginAPI.Events.RemoteAdminCommandEvent
+  name: RemoteAdminCommandEvent
+  nameWithType: RemoteAdminCommandEvent
+  fullName: PluginAPI.Events.RemoteAdminCommandEvent
+- uid: PluginAPI.Events.RemoteAdminCommandExecutedEvent
+  commentId: T:PluginAPI.Events.RemoteAdminCommandExecutedEvent
+  name: RemoteAdminCommandExecutedEvent
+  nameWithType: RemoteAdminCommandExecutedEvent
+  fullName: PluginAPI.Events.RemoteAdminCommandExecutedEvent
+- uid: PluginAPI.Events.RoundEndConditionsCheckEvent
+  commentId: T:PluginAPI.Events.RoundEndConditionsCheckEvent
+  name: RoundEndConditionsCheckEvent
+  nameWithType: RoundEndConditionsCheckEvent
+  fullName: PluginAPI.Events.RoundEndConditionsCheckEvent
+- uid: PluginAPI.Events.RoundEndEvent
+  commentId: T:PluginAPI.Events.RoundEndEvent
+  name: RoundEndEvent
+  nameWithType: RoundEndEvent
+  fullName: PluginAPI.Events.RoundEndEvent
+- uid: PluginAPI.Events.RoundRestartEvent
+  commentId: T:PluginAPI.Events.RoundRestartEvent
+  name: RoundRestartEvent
+  nameWithType: RoundRestartEvent
+  fullName: PluginAPI.Events.RoundRestartEvent
+- uid: PluginAPI.Events.RoundStartEvent
+  commentId: T:PluginAPI.Events.RoundStartEvent
+  name: RoundStartEvent
+  nameWithType: RoundStartEvent
+  fullName: PluginAPI.Events.RoundStartEvent
 - uid: PluginAPI.Events.TeamRespawnEvent
   commentId: T:PluginAPI.Events.TeamRespawnEvent
   name: TeamRespawnEvent

@@ -35,7 +35,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginHandler
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 21
+    startLine: 20
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -78,7 +78,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Get
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 43
+    startLine: 42
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -119,7 +119,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: LoadPriority
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 57
+    startLine: 56
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -156,7 +156,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginName
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 62
+    startLine: 61
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -193,7 +193,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginVersion
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 67
+    startLine: 66
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -230,7 +230,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginDescription
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 95
+    startLine: 94
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -267,7 +267,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginAuthor
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 100
+    startLine: 99
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -304,7 +304,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginFilePath
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 105
+    startLine: 104
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -341,7 +341,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginDirectoryPath
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 110
+    startLine: 109
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -378,7 +378,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: MainConfigPath
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 115
+    startLine: 114
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -415,7 +415,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Unload
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 120
+    startLine: 119
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -447,7 +447,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Load
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 141
+    startLine: 140
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -479,7 +479,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: LoadConfig
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 164
+    startLine: 163
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -518,7 +518,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ReloadConfig
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 206
+    startLine: 205
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -554,7 +554,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: LoadDefaultConfig
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 253
+    startLine: 252
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -593,7 +593,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: SaveConfig
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 277
+    startLine: 276
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -632,7 +632,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
     path: ../NwPluginAPI/Core/PluginHandler.cs
-    startLine: 303
+    startLine: 302
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core

@@ -1,41 +1,42 @@
 ### YamlMime:ManagedReference
 items:
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent
-  commentId: T:PluginAPI.Events.PlayerDryfireWeaponEvent
-  id: PlayerDryfireWeaponEvent
-  parent: PluginAPI.Events
+- uid: PluginAPI.Core.OfflinePlayer
+  commentId: T:PluginAPI.Core.OfflinePlayer
+  id: OfflinePlayer
+  parent: PluginAPI.Core
   children:
-  - PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor(ReferenceHub,InventorySystem.Items.Firearms.Firearm)
-  - PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
-  - PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
-  - PluginAPI.Events.PlayerDryfireWeaponEvent.Player
+  - PluginAPI.Core.OfflinePlayer.#ctor(System.String,System.String,System.String)
+  - PluginAPI.Core.OfflinePlayer.IpAddress
+  - PluginAPI.Core.OfflinePlayer.Nickname
+  - PluginAPI.Core.OfflinePlayer.UserId
   langs:
   - csharp
   - vb
-  name: PlayerDryfireWeaponEvent
-  nameWithType: PlayerDryfireWeaponEvent
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent
+  name: OfflinePlayer
+  nameWithType: OfflinePlayer
+  fullName: PluginAPI.Core.OfflinePlayer
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
+      path: NwPluginAPI/Core/OfflinePlayer.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: PlayerDryfireWeaponEvent
-    path: ../NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
-    startLine: 8
+    id: OfflinePlayer
+    path: ../NwPluginAPI/Core/OfflinePlayer.cs
+    startLine: 4
   assemblies:
   - PluginAPI
-  namespace: PluginAPI.Events
+  namespace: PluginAPI.Core
   syntax:
-    content: 'public class PlayerDryfireWeaponEvent : IEventArguments'
+    content: 'public class OfflinePlayer : IPlayer, IEntity'
     content.vb: >-
-      Public Class PlayerDryfireWeaponEvent
-          Implements IEventArguments
+      Public Class OfflinePlayer
+          Implements IPlayer, IEntity
   inheritance:
   - System.Object
   implements:
-  - PluginAPI.Events.IEventArguments
+  - PluginAPI.Core.Interfaces.IPlayer
+  - PluginAPI.Core.Interfaces.IEntity
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -50,154 +51,165 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
-  commentId: P:PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
-  id: BaseType
-  parent: PluginAPI.Events.PlayerDryfireWeaponEvent
+- uid: PluginAPI.Core.OfflinePlayer.UserId
+  commentId: P:PluginAPI.Core.OfflinePlayer.UserId
+  id: UserId
+  parent: PluginAPI.Core.OfflinePlayer
   langs:
   - csharp
   - vb
-  name: BaseType
-  nameWithType: PlayerDryfireWeaponEvent.BaseType
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
+  name: UserId
+  nameWithType: OfflinePlayer.UserId
+  fullName: PluginAPI.Core.OfflinePlayer.UserId
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
+      path: NwPluginAPI/Core/OfflinePlayer.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: BaseType
-    path: ../NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
-    startLine: 10
+    id: UserId
+    path: ../NwPluginAPI/Core/OfflinePlayer.cs
+    startLine: 9
   assemblies:
   - PluginAPI
-  namespace: PluginAPI.Events
+  namespace: PluginAPI.Core
+  summary: "\nGets the player&apos;s user id.\n"
+  example: []
   syntax:
-    content: public ServerEventType BaseType { get; }
+    content: public string UserId { get; }
     parameters: []
     return:
-      type: PluginAPI.Enums.ServerEventType
-    content.vb: Public ReadOnly Property BaseType As ServerEventType
-  overload: PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType*
-  implements:
-  - PluginAPI.Events.IEventArguments.BaseType
+      type: System.String
+    content.vb: Public ReadOnly Property UserId As String
+  overload: PluginAPI.Core.OfflinePlayer.UserId*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.Player
-  commentId: P:PluginAPI.Events.PlayerDryfireWeaponEvent.Player
-  id: Player
-  parent: PluginAPI.Events.PlayerDryfireWeaponEvent
+- uid: PluginAPI.Core.OfflinePlayer.Nickname
+  commentId: P:PluginAPI.Core.OfflinePlayer.Nickname
+  id: Nickname
+  parent: PluginAPI.Core.OfflinePlayer
   langs:
   - csharp
   - vb
-  name: Player
-  nameWithType: PlayerDryfireWeaponEvent.Player
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.Player
+  name: Nickname
+  nameWithType: OfflinePlayer.Nickname
+  fullName: PluginAPI.Core.OfflinePlayer.Nickname
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
+      path: NwPluginAPI/Core/OfflinePlayer.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: Player
-    path: ../NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
-    startLine: 11
+    id: Nickname
+    path: ../NwPluginAPI/Core/OfflinePlayer.cs
+    startLine: 14
   assemblies:
   - PluginAPI
-  namespace: PluginAPI.Events
+  namespace: PluginAPI.Core
+  summary: "\nGets the player&apos;s name.\n"
+  example: []
   syntax:
-    content: public Player Player { get; }
+    content: public string Nickname { get; }
     parameters: []
     return:
-      type: PluginAPI.Core.Player
-    content.vb: Public ReadOnly Property Player As Player
-  overload: PluginAPI.Events.PlayerDryfireWeaponEvent.Player*
+      type: System.String
+    content.vb: Public ReadOnly Property Nickname As String
+  overload: PluginAPI.Core.OfflinePlayer.Nickname*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
-  commentId: P:PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
-  id: Firearm
-  parent: PluginAPI.Events.PlayerDryfireWeaponEvent
+- uid: PluginAPI.Core.OfflinePlayer.IpAddress
+  commentId: P:PluginAPI.Core.OfflinePlayer.IpAddress
+  id: IpAddress
+  parent: PluginAPI.Core.OfflinePlayer
   langs:
   - csharp
   - vb
-  name: Firearm
-  nameWithType: PlayerDryfireWeaponEvent.Firearm
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
+  name: IpAddress
+  nameWithType: OfflinePlayer.IpAddress
+  fullName: PluginAPI.Core.OfflinePlayer.IpAddress
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
+      path: NwPluginAPI/Core/OfflinePlayer.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: Firearm
-    path: ../NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
-    startLine: 13
+    id: IpAddress
+    path: ../NwPluginAPI/Core/OfflinePlayer.cs
+    startLine: 19
   assemblies:
   - PluginAPI
-  namespace: PluginAPI.Events
+  namespace: PluginAPI.Core
+  summary: "\nGets the player&apos;s ip address.\n"
+  example: []
   syntax:
-    content: public Firearm Firearm { get; }
+    content: public string IpAddress { get; }
     parameters: []
     return:
-      type: InventorySystem.Items.Firearms.Firearm
-    content.vb: Public ReadOnly Property Firearm As Firearm
-  overload: PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm*
+      type: System.String
+    content.vb: Public ReadOnly Property IpAddress As String
+  overload: PluginAPI.Core.OfflinePlayer.IpAddress*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor(ReferenceHub,InventorySystem.Items.Firearms.Firearm)
-  commentId: M:PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor(ReferenceHub,InventorySystem.Items.Firearms.Firearm)
-  id: '#ctor(ReferenceHub,InventorySystem.Items.Firearms.Firearm)'
-  parent: PluginAPI.Events.PlayerDryfireWeaponEvent
+- uid: PluginAPI.Core.OfflinePlayer.#ctor(System.String,System.String,System.String)
+  commentId: M:PluginAPI.Core.OfflinePlayer.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: PluginAPI.Core.OfflinePlayer
   langs:
   - csharp
   - vb
-  name: PlayerDryfireWeaponEvent(ReferenceHub, Firearm)
-  nameWithType: PlayerDryfireWeaponEvent.PlayerDryfireWeaponEvent(ReferenceHub, Firearm)
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.PlayerDryfireWeaponEvent(ReferenceHub, InventorySystem.Items.Firearms.Firearm)
+  name: OfflinePlayer(String, String, String)
+  nameWithType: OfflinePlayer.OfflinePlayer(String, String, String)
+  fullName: PluginAPI.Core.OfflinePlayer.OfflinePlayer(System.String, System.String, System.String)
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
+      path: NwPluginAPI/Core/OfflinePlayer.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Player/PlayerDryfireWeaponEvent.cs
-    startLine: 16
+    path: ../NwPluginAPI/Core/OfflinePlayer.cs
+    startLine: 27
   assemblies:
   - PluginAPI
-  namespace: PluginAPI.Events
+  namespace: PluginAPI.Core
+  summary: "\nConstructor for offline player.\n"
+  example: []
   syntax:
-    content: public PlayerDryfireWeaponEvent(ReferenceHub hub, Firearm firearm)
+    content: public OfflinePlayer(string userId, string name = "(no nick)", string ipAddress = "127.0.0.1")
     parameters:
-    - id: hub
-      type: ReferenceHub
-    - id: firearm
-      type: InventorySystem.Items.Firearms.Firearm
-    content.vb: Public Sub New(hub As ReferenceHub, firearm As Firearm)
-  overload: PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor*
+    - id: userId
+      type: System.String
+      description: The user id.
+    - id: name
+      type: System.String
+      description: The nick name.
+    - id: ipAddress
+      type: System.String
+      description: The ip address.
+    content.vb: Public Sub New(userId As String, name As String = "(no nick)", ipAddress As String = "127.0.0.1")
+  overload: PluginAPI.Core.OfflinePlayer.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: PluginAPI.Events
-  commentId: N:PluginAPI.Events
-  name: PluginAPI.Events
-  nameWithType: PluginAPI.Events
-  fullName: PluginAPI.Events
+- uid: PluginAPI.Core
+  commentId: N:PluginAPI.Core
+  name: PluginAPI.Core
+  nameWithType: PluginAPI.Core
+  fullName: PluginAPI.Core
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -205,12 +217,18 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: PluginAPI.Events.IEventArguments
-  commentId: T:PluginAPI.Events.IEventArguments
-  parent: PluginAPI.Events
-  name: IEventArguments
-  nameWithType: IEventArguments
-  fullName: PluginAPI.Events.IEventArguments
+- uid: PluginAPI.Core.Interfaces.IPlayer
+  commentId: T:PluginAPI.Core.Interfaces.IPlayer
+  parent: PluginAPI.Core.Interfaces
+  name: IPlayer
+  nameWithType: IPlayer
+  fullName: PluginAPI.Core.Interfaces.IPlayer
+- uid: PluginAPI.Core.Interfaces.IEntity
+  commentId: T:PluginAPI.Core.Interfaces.IEntity
+  parent: PluginAPI.Core.Interfaces
+  name: IEntity
+  nameWithType: IEntity
+  fullName: PluginAPI.Core.Interfaces.IEntity
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -496,70 +514,35 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType*
-  commentId: Overload:PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
-  name: BaseType
-  nameWithType: PlayerDryfireWeaponEvent.BaseType
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.BaseType
-- uid: PluginAPI.Events.IEventArguments.BaseType
-  commentId: P:PluginAPI.Events.IEventArguments.BaseType
-  parent: PluginAPI.Events.IEventArguments
-  name: BaseType
-  nameWithType: IEventArguments.BaseType
-  fullName: PluginAPI.Events.IEventArguments.BaseType
-- uid: PluginAPI.Enums.ServerEventType
-  commentId: T:PluginAPI.Enums.ServerEventType
-  parent: PluginAPI.Enums
-  name: ServerEventType
-  nameWithType: ServerEventType
-  fullName: PluginAPI.Enums.ServerEventType
-- uid: PluginAPI.Enums
-  commentId: N:PluginAPI.Enums
-  name: PluginAPI.Enums
-  nameWithType: PluginAPI.Enums
-  fullName: PluginAPI.Enums
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.Player*
-  commentId: Overload:PluginAPI.Events.PlayerDryfireWeaponEvent.Player
-  name: Player
-  nameWithType: PlayerDryfireWeaponEvent.Player
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.Player
-- uid: PluginAPI.Core.Player
-  commentId: T:PluginAPI.Core.Player
-  parent: PluginAPI.Core
-  name: Player
-  nameWithType: Player
-  fullName: PluginAPI.Core.Player
-- uid: PluginAPI.Core
-  commentId: N:PluginAPI.Core
-  name: PluginAPI.Core
-  nameWithType: PluginAPI.Core
-  fullName: PluginAPI.Core
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm*
-  commentId: Overload:PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
-  name: Firearm
-  nameWithType: PlayerDryfireWeaponEvent.Firearm
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.Firearm
-- uid: InventorySystem.Items.Firearms.Firearm
-  commentId: T:InventorySystem.Items.Firearms.Firearm
-  parent: InventorySystem.Items.Firearms
+- uid: PluginAPI.Core.Interfaces
+  commentId: N:PluginAPI.Core.Interfaces
+  name: PluginAPI.Core.Interfaces
+  nameWithType: PluginAPI.Core.Interfaces
+  fullName: PluginAPI.Core.Interfaces
+- uid: PluginAPI.Core.OfflinePlayer.UserId*
+  commentId: Overload:PluginAPI.Core.OfflinePlayer.UserId
+  name: UserId
+  nameWithType: OfflinePlayer.UserId
+  fullName: PluginAPI.Core.OfflinePlayer.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  name: Firearm
-  nameWithType: Firearm
-  fullName: InventorySystem.Items.Firearms.Firearm
-- uid: InventorySystem.Items.Firearms
-  commentId: N:InventorySystem.Items.Firearms
-  isExternal: true
-  name: InventorySystem.Items.Firearms
-  nameWithType: InventorySystem.Items.Firearms
-  fullName: InventorySystem.Items.Firearms
-- uid: PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor*
-  commentId: Overload:PluginAPI.Events.PlayerDryfireWeaponEvent.#ctor
-  name: PlayerDryfireWeaponEvent
-  nameWithType: PlayerDryfireWeaponEvent.PlayerDryfireWeaponEvent
-  fullName: PluginAPI.Events.PlayerDryfireWeaponEvent.PlayerDryfireWeaponEvent
-- uid: ReferenceHub
-  commentId: T:ReferenceHub
-  isExternal: true
-  name: ReferenceHub
-  nameWithType: ReferenceHub
-  fullName: ReferenceHub
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: PluginAPI.Core.OfflinePlayer.Nickname*
+  commentId: Overload:PluginAPI.Core.OfflinePlayer.Nickname
+  name: Nickname
+  nameWithType: OfflinePlayer.Nickname
+  fullName: PluginAPI.Core.OfflinePlayer.Nickname
+- uid: PluginAPI.Core.OfflinePlayer.IpAddress*
+  commentId: Overload:PluginAPI.Core.OfflinePlayer.IpAddress
+  name: IpAddress
+  nameWithType: OfflinePlayer.IpAddress
+  fullName: PluginAPI.Core.OfflinePlayer.IpAddress
+- uid: PluginAPI.Core.OfflinePlayer.#ctor*
+  commentId: Overload:PluginAPI.Core.OfflinePlayer.#ctor
+  name: OfflinePlayer
+  nameWithType: OfflinePlayer.OfflinePlayer
+  fullName: PluginAPI.Core.OfflinePlayer.OfflinePlayer

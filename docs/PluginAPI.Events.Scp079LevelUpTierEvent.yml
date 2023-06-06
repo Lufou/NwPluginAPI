@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Scp079LevelUpTierEvent
-    path: ../NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Tier
-    path: ../NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
+      path: NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Scp079LevelUpTierEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Scp079/Scp079LevelUpTierEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

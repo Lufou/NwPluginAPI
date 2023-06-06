@@ -10,7 +10,6 @@ items:
   - PluginAPI.Core.RoomLight.FlickerLights(System.Single)
   - PluginAPI.Core.RoomLight.IsEnabled
   - PluginAPI.Core.RoomLight.LightColor
-  - PluginAPI.Core.RoomLight.LightIntensity
   langs:
   - csharp
   - vb
@@ -142,7 +141,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: DefaultColor
     path: ../NwPluginAPI/Core/RoomLight.cs
-    startLine: 55
+    startLine: 54
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -161,43 +160,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Core.RoomLight.LightIntensity
-  commentId: P:PluginAPI.Core.RoomLight.LightIntensity
-  id: LightIntensity
-  parent: PluginAPI.Core.RoomLight
-  langs:
-  - csharp
-  - vb
-  name: LightIntensity
-  nameWithType: RoomLight.LightIntensity
-  fullName: PluginAPI.Core.RoomLight.LightIntensity
-  type: Property
-  source:
-    remote:
-      path: NwPluginAPI/Core/RoomLight.cs
-      branch: 13.0.0
-      repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: LightIntensity
-    path: ../NwPluginAPI/Core/RoomLight.cs
-    startLine: 67
-  assemblies:
-  - PluginAPI
-  namespace: PluginAPI.Core
-  summary: "\nGets or sets lightning intensity in room.\n"
-  example: []
-  syntax:
-    content: public float LightIntensity { get; set; }
-    parameters: []
-    return:
-      type: System.Single
-    content.vb: Public Property LightIntensity As Single
-  overload: PluginAPI.Core.RoomLight.LightIntensity*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: PluginAPI.Core.RoomLight.FlickerLights(System.Single)
   commentId: M:PluginAPI.Core.RoomLight.FlickerLights(System.Single)
   id: FlickerLights(System.Single)
@@ -216,7 +178,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: FlickerLights
     path: ../NwPluginAPI/Core/RoomLight.cs
-    startLine: 84
+    startLine: 67
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -252,7 +214,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
     path: ../NwPluginAPI/Core/RoomLight.cs
-    startLine: 93
+    startLine: 76
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -603,11 +565,11 @@ references:
   name: DefaultColor
   nameWithType: RoomLight.DefaultColor
   fullName: PluginAPI.Core.RoomLight.DefaultColor
-- uid: PluginAPI.Core.RoomLight.LightIntensity*
-  commentId: Overload:PluginAPI.Core.RoomLight.LightIntensity
-  name: LightIntensity
-  nameWithType: RoomLight.LightIntensity
-  fullName: PluginAPI.Core.RoomLight.LightIntensity
+- uid: PluginAPI.Core.RoomLight.FlickerLights*
+  commentId: Overload:PluginAPI.Core.RoomLight.FlickerLights
+  name: FlickerLights
+  nameWithType: RoomLight.FlickerLights
+  fullName: PluginAPI.Core.RoomLight.FlickerLights
 - uid: System.Single
   commentId: T:System.Single
   parent: System
@@ -615,11 +577,6 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: PluginAPI.Core.RoomLight.FlickerLights*
-  commentId: Overload:PluginAPI.Core.RoomLight.FlickerLights
-  name: FlickerLights
-  nameWithType: RoomLight.FlickerLights
-  fullName: PluginAPI.Core.RoomLight.FlickerLights
 - uid: PluginAPI.Core.RoomLight
   commentId: T:PluginAPI.Core.RoomLight
   parent: PluginAPI.Core

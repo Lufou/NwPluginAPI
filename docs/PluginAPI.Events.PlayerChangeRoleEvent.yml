@@ -20,12 +20,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerChangeRoleEvent
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -65,12 +65,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -102,12 +102,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -137,12 +137,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: OldRole
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -172,12 +172,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: NewRole
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -207,12 +207,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ChangeReason
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 17
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -242,12 +242,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerChangeRoleEvent.cs
-    startLine: 43
+    path: ../NwPluginAPI/Events/Args/Player/PlayerChangeRoleEvent.cs
+    startLine: 20
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

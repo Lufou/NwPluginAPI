@@ -5,9 +5,10 @@ items:
   id: PlayerUnmutedEvent
   parent: PluginAPI.Events
   children:
-  - PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,System.Boolean)
+  - PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,ReferenceHub,System.Boolean)
   - PluginAPI.Events.PlayerUnmutedEvent.BaseType
   - PluginAPI.Events.PlayerUnmutedEvent.IsIntercom
+  - PluginAPI.Events.PlayerUnmutedEvent.Issuer
   - PluginAPI.Events.PlayerUnmutedEvent.Player
   langs:
   - csharp
@@ -18,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerUnmutedEvent
-    path: ../NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -116,6 +117,41 @@ items:
       type: PluginAPI.Core.Player
     content.vb: Public ReadOnly Property Player As Player
   overload: PluginAPI.Events.PlayerUnmutedEvent.Player*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: PluginAPI.Events.PlayerUnmutedEvent.Issuer
+  commentId: P:PluginAPI.Events.PlayerUnmutedEvent.Issuer
+  id: Issuer
+  parent: PluginAPI.Events.PlayerUnmutedEvent
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: PlayerUnmutedEvent.Issuer
+  fullName: PluginAPI.Events.PlayerUnmutedEvent.Issuer
+  type: Property
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: Issuer
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 11
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public Player Issuer { get; }
+    parameters: []
+    return:
+      type: PluginAPI.Core.Player
+    content.vb: Public ReadOnly Property Issuer As Player
+  overload: PluginAPI.Events.PlayerUnmutedEvent.Issuer*
   modifiers.csharp:
   - public
   - get
@@ -135,12 +171,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: IsIntercom
-    path: ../NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -157,36 +193,38 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,System.Boolean)
-  commentId: M:PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,System.Boolean)
-  id: '#ctor(ReferenceHub,System.Boolean)'
+- uid: PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,ReferenceHub,System.Boolean)
+  commentId: M:PluginAPI.Events.PlayerUnmutedEvent.#ctor(ReferenceHub,ReferenceHub,System.Boolean)
+  id: '#ctor(ReferenceHub,ReferenceHub,System.Boolean)'
   parent: PluginAPI.Events.PlayerUnmutedEvent
   langs:
   - csharp
   - vb
-  name: PlayerUnmutedEvent(ReferenceHub, Boolean)
-  nameWithType: PlayerUnmutedEvent.PlayerUnmutedEvent(ReferenceHub, Boolean)
-  fullName: PluginAPI.Events.PlayerUnmutedEvent.PlayerUnmutedEvent(ReferenceHub, System.Boolean)
+  name: PlayerUnmutedEvent(ReferenceHub, ReferenceHub, Boolean)
+  nameWithType: PlayerUnmutedEvent.PlayerUnmutedEvent(ReferenceHub, ReferenceHub, Boolean)
+  fullName: PluginAPI.Events.PlayerUnmutedEvent.PlayerUnmutedEvent(ReferenceHub, ReferenceHub, System.Boolean)
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerUnmutedEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Player/PlayerUnmutedEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public PlayerUnmutedEvent(ReferenceHub hub, bool isIntercom)
+    content: public PlayerUnmutedEvent(ReferenceHub hub, ReferenceHub issuer, bool isIntercom)
     parameters:
     - id: hub
       type: ReferenceHub
+    - id: issuer
+      type: ReferenceHub
     - id: isIntercom
       type: System.Boolean
-    content.vb: Public Sub New(hub As ReferenceHub, isIntercom As Boolean)
+    content.vb: Public Sub New(hub As ReferenceHub, issuer As ReferenceHub, isIntercom As Boolean)
   overload: PluginAPI.Events.PlayerUnmutedEvent.#ctor*
   modifiers.csharp:
   - public
@@ -534,6 +572,11 @@ references:
   name: PluginAPI.Core
   nameWithType: PluginAPI.Core
   fullName: PluginAPI.Core
+- uid: PluginAPI.Events.PlayerUnmutedEvent.Issuer*
+  commentId: Overload:PluginAPI.Events.PlayerUnmutedEvent.Issuer
+  name: Issuer
+  nameWithType: PlayerUnmutedEvent.Issuer
+  fullName: PluginAPI.Events.PlayerUnmutedEvent.Issuer
 - uid: PluginAPI.Events.PlayerUnmutedEvent.IsIntercom*
   commentId: Overload:PluginAPI.Events.PlayerUnmutedEvent.IsIntercom
   name: IsIntercom

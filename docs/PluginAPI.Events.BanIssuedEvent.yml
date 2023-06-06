@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/BanIssuedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BanIssuedEvent
-    path: ../NwPluginAPI/Events/Args/BanIssuedEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/BanIssuedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/BanIssuedEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/BanIssuedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BanDetails
-    path: ../NwPluginAPI/Events/Args/BanIssuedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/BanIssuedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BanType
-    path: ../NwPluginAPI/Events/Args/BanIssuedEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/BanIssuedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/BanIssuedEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Server/BanIssuedEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

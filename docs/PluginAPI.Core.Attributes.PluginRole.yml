@@ -23,7 +23,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PluginRole
     path: ../NwPluginAPI/Core/Attributes/PluginRole.cs
-    startLine: 12
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Attributes
@@ -126,7 +126,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RegisterType
     path: ../NwPluginAPI/Core/Attributes/PluginRole.cs
-    startLine: 15
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Attributes
@@ -157,7 +157,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RoleId
     path: ../NwPluginAPI/Core/Attributes/PluginRole.cs
-    startLine: 16
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Attributes
@@ -188,7 +188,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
     path: ../NwPluginAPI/Core/Attributes/PluginRole.cs
-    startLine: 22
+    startLine: 18
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Attributes
@@ -224,7 +224,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
     path: ../NwPluginAPI/Core/Attributes/PluginRole.cs
-    startLine: 31
+    startLine: 27
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core.Attributes

@@ -38,7 +38,9 @@ items:
   - PluginAPI.Enums.ServerEventType.PlayerDeactivatedGenerator
   - PluginAPI.Enums.ServerEventType.PlayerDeath
   - PluginAPI.Enums.ServerEventType.PlayerDropAmmo
+  - PluginAPI.Enums.ServerEventType.PlayerDropedpItem
   - PluginAPI.Enums.ServerEventType.PlayerDropItem
+  - PluginAPI.Enums.ServerEventType.PlayerDroppedAmmo
   - PluginAPI.Enums.ServerEventType.PlayerDryfireWeapon
   - PluginAPI.Enums.ServerEventType.PlayerDying
   - PluginAPI.Enums.ServerEventType.PlayerEnterPocketDimension
@@ -4662,6 +4664,76 @@ items:
   namespace: PluginAPI.Enums
   syntax:
     content: None = 129
+    return:
+      type: PluginAPI.Enums.ServerEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.ServerEventType.PlayerDropedpItem
+  commentId: F:PluginAPI.Enums.ServerEventType.PlayerDropedpItem
+  id: PlayerDropedpItem
+  parent: PluginAPI.Enums.ServerEventType
+  langs:
+  - csharp
+  - vb
+  name: PlayerDropedpItem
+  nameWithType: ServerEventType.PlayerDropedpItem
+  fullName: PluginAPI.Enums.ServerEventType.PlayerDropedpItem
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/ServerEventType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: PlayerDropedpItem
+    path: ../NwPluginAPI/Enums/ServerEventType.cs
+    startLine: 1080
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  summary: "\nExecuted when player dropped item.\n"
+  remarks: "\nParameters: <xref href=\"PluginAPI.Core.Interfaces.IPlayer\" data-throw-if-not-resolved=\"false\"></xref> player, <xref href=\"PluginAPI.Core.Items.Item\" data-throw-if-not-resolved=\"false\"></xref> item.\n"
+  example: []
+  syntax:
+    content: PlayerDropedpItem = 130
+    return:
+      type: PluginAPI.Enums.ServerEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PluginAPI.Enums.ServerEventType.PlayerDroppedAmmo
+  commentId: F:PluginAPI.Enums.ServerEventType.PlayerDroppedAmmo
+  id: PlayerDroppedAmmo
+  parent: PluginAPI.Enums.ServerEventType
+  langs:
+  - csharp
+  - vb
+  name: PlayerDroppedAmmo
+  nameWithType: ServerEventType.PlayerDroppedAmmo
+  fullName: PluginAPI.Enums.ServerEventType.PlayerDroppedAmmo
+  type: Field
+  source:
+    remote:
+      path: NwPluginAPI/Enums/ServerEventType.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: PlayerDroppedAmmo
+    path: ../NwPluginAPI/Enums/ServerEventType.cs
+    startLine: 1088
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Enums
+  summary: "\nExecuted when player dropped ammo.\n"
+  remarks: "\nParameters: <xref href=\"PluginAPI.Core.Interfaces.IPlayer\" data-throw-if-not-resolved=\"false\"></xref> player, <xref href=\"ItemType\" data-throw-if-not-resolved=\"false\"></xref> type. <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref> amount.\n"
+  example: []
+  syntax:
+    content: PlayerDroppedAmmo = 131
     return:
       type: PluginAPI.Enums.ServerEventType
   modifiers.csharp:

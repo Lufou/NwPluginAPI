@@ -17,12 +17,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
+      path: NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: RoundEndConditionsCheckEvent
-    path: ../NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
+    startLine: 5
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -62,12 +62,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
+      path: NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -99,12 +99,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
+      path: NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseGameConditionsSatisfied
-    path: ../NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -134,12 +134,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
+      path: NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/RoundEndConditionsCheckEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Server/RoundEndConditionsCheckEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

@@ -36,6 +36,8 @@
     name: Log
   - uid: PluginAPI.Core.Map
     name: Map
+  - uid: PluginAPI.Core.OfflinePlayer
+    name: OfflinePlayer
   - uid: PluginAPI.Core.Player
     name: Player
   - uid: PluginAPI.Core.PlayerExtensions
@@ -46,6 +48,8 @@
     name: PlayerSharedStorage
   - uid: PluginAPI.Core.PluginHandler
     name: PluginHandler
+  - uid: PluginAPI.Core.ReservedSlots
+    name: ReservedSlots
   - uid: PluginAPI.Core.Respawn
     name: Respawn
   - uid: PluginAPI.Core.RoomLight
@@ -64,6 +68,8 @@
     name: Statistics.Round
   - uid: PluginAPI.Core.Warhead
     name: Warhead
+  - uid: PluginAPI.Core.Whitelist
+    name: Whitelist
 - uid: PluginAPI.Core.Attributes
   name: PluginAPI.Core.Attributes
   items:
@@ -190,6 +196,8 @@
   items:
   - uid: PluginAPI.Enums.CommandType
     name: CommandType
+  - uid: PluginAPI.Enums.DamageType
+    name: DamageType
   - uid: PluginAPI.Enums.LoadPriority
     name: LoadPriority
   - uid: PluginAPI.Enums.LogType
@@ -281,6 +289,10 @@
     name: PlayerDropAmmoEvent
   - uid: PluginAPI.Events.PlayerDropItemEvent
     name: PlayerDropItemEvent
+  - uid: PluginAPI.Events.PlayerDroppedAmmoEvent
+    name: PlayerDroppedAmmoEvent
+  - uid: PluginAPI.Events.PlayerDroppedItemEvent
+    name: PlayerDroppedItemEvent
   - uid: PluginAPI.Events.PlayerDryfireWeaponEvent
     name: PlayerDryfireWeaponEvent
   - uid: PluginAPI.Events.PlayerDyingEvent

@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerCheckReservedSlotEvent
-    path: ../NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
+    startLine: 5
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
+    startLine: 7
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Userid
-    path: ../NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: HasReservedSlot
-    path: ../NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerCheckReservedSlotEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Player/PlayerCheckReservedSlotEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

@@ -5,8 +5,10 @@ items:
   id: TeamRespawnEvent
   parent: PluginAPI.Events
   children:
-  - PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType)
+  - PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType,System.Collections.Generic.List{ReferenceHub})
   - PluginAPI.Events.TeamRespawnEvent.BaseType
+  - PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+  - PluginAPI.Events.TeamRespawnEvent.Players
   - PluginAPI.Events.TeamRespawnEvent.Team
   langs:
   - csharp
@@ -17,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TeamRespawnEvent
-    path: ../NwPluginAPI/Events/Args/TeamRespawnEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -62,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/TeamRespawnEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -99,61 +101,136 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Team
-    path: ../NwPluginAPI/Events/Args/TeamRespawnEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public SpawnableTeamType Team { get; }
+    content: public SpawnableTeamType Team { get; set; }
     parameters: []
     return:
       type: Respawning.SpawnableTeamType
-    content.vb: Public ReadOnly Property Team As SpawnableTeamType
+    content.vb: Public Property Team As SpawnableTeamType
   overload: PluginAPI.Events.TeamRespawnEvent.Team*
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
-- uid: PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType)
-  commentId: M:PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType)
-  id: '#ctor(Respawning.SpawnableTeamType)'
+- uid: PluginAPI.Events.TeamRespawnEvent.Players
+  commentId: P:PluginAPI.Events.TeamRespawnEvent.Players
+  id: Players
   parent: PluginAPI.Events.TeamRespawnEvent
   langs:
   - csharp
   - vb
-  name: TeamRespawnEvent(SpawnableTeamType)
-  nameWithType: TeamRespawnEvent.TeamRespawnEvent(SpawnableTeamType)
-  fullName: PluginAPI.Events.TeamRespawnEvent.TeamRespawnEvent(Respawning.SpawnableTeamType)
-  type: Constructor
+  name: Players
+  nameWithType: TeamRespawnEvent.Players
+  fullName: PluginAPI.Events.TeamRespawnEvent.Players
+  type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
-    id: .ctor
-    path: ../NwPluginAPI/Events/Args/TeamRespawnEvent.cs
-    startLine: 38
+    id: Players
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public TeamRespawnEvent(SpawnableTeamType team)
+    content: public List<Player> Players { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{PluginAPI.Core.Player}
+    content.vb: Public Property Players As List(Of Player)
+  overload: PluginAPI.Events.TeamRespawnEvent.Players*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+  commentId: P:PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+  id: NextWaveMaxSize
+  parent: PluginAPI.Events.TeamRespawnEvent
+  langs:
+  - csharp
+  - vb
+  name: NextWaveMaxSize
+  nameWithType: TeamRespawnEvent.NextWaveMaxSize
+  fullName: PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+  type: Property
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: NextWaveMaxSize
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 15
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public int NextWaveMaxSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NextWaveMaxSize As Integer
+  overload: PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType,System.Collections.Generic.List{ReferenceHub})
+  commentId: M:PluginAPI.Events.TeamRespawnEvent.#ctor(Respawning.SpawnableTeamType,System.Collections.Generic.List{ReferenceHub})
+  id: '#ctor(Respawning.SpawnableTeamType,System.Collections.Generic.List{ReferenceHub})'
+  parent: PluginAPI.Events.TeamRespawnEvent
+  langs:
+  - csharp
+  - vb
+  name: TeamRespawnEvent(SpawnableTeamType, List<ReferenceHub>)
+  nameWithType: TeamRespawnEvent.TeamRespawnEvent(SpawnableTeamType, List<ReferenceHub>)
+  fullName: PluginAPI.Events.TeamRespawnEvent.TeamRespawnEvent(Respawning.SpawnableTeamType, System.Collections.Generic.List<ReferenceHub>)
+  type: Constructor
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: .ctor
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnEvent.cs
+    startLine: 18
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public TeamRespawnEvent(SpawnableTeamType team, List<ReferenceHub> spectators)
     parameters:
     - id: team
       type: Respawning.SpawnableTeamType
-    content.vb: Public Sub New(team As SpawnableTeamType)
+    - id: spectators
+      type: System.Collections.Generic.List{ReferenceHub}
+    content.vb: Public Sub New(team As SpawnableTeamType, spectators As List(Of ReferenceHub))
   overload: PluginAPI.Events.TeamRespawnEvent.#ctor*
+  nameWithType.vb: TeamRespawnEvent.TeamRespawnEvent(SpawnableTeamType, List(Of ReferenceHub))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: PluginAPI.Events.TeamRespawnEvent.TeamRespawnEvent(Respawning.SpawnableTeamType, System.Collections.Generic.List(Of ReferenceHub))
+  name.vb: TeamRespawnEvent(SpawnableTeamType, List(Of ReferenceHub))
 references:
 - uid: PluginAPI.Events
   commentId: N:PluginAPI.Events
@@ -498,8 +575,156 @@ references:
   name: Respawning
   nameWithType: Respawning
   fullName: Respawning
+- uid: PluginAPI.Events.TeamRespawnEvent.Players*
+  commentId: Overload:PluginAPI.Events.TeamRespawnEvent.Players
+  name: Players
+  nameWithType: TeamRespawnEvent.Players
+  fullName: PluginAPI.Events.TeamRespawnEvent.Players
+- uid: System.Collections.Generic.List{PluginAPI.Core.Player}
+  commentId: T:System.Collections.Generic.List{PluginAPI.Core.Player}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Player>
+  nameWithType: List<Player>
+  fullName: System.Collections.Generic.List<PluginAPI.Core.Player>
+  nameWithType.vb: List(Of Player)
+  fullName.vb: System.Collections.Generic.List(Of PluginAPI.Core.Player)
+  name.vb: List(Of Player)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PluginAPI.Core.Player
+    name: Player
+    nameWithType: Player
+    fullName: PluginAPI.Core.Player
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize*
+  commentId: Overload:PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+  name: NextWaveMaxSize
+  nameWithType: TeamRespawnEvent.NextWaveMaxSize
+  fullName: PluginAPI.Events.TeamRespawnEvent.NextWaveMaxSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: PluginAPI.Events.TeamRespawnEvent.#ctor*
   commentId: Overload:PluginAPI.Events.TeamRespawnEvent.#ctor
   name: TeamRespawnEvent
   nameWithType: TeamRespawnEvent.TeamRespawnEvent
   fullName: PluginAPI.Events.TeamRespawnEvent.TeamRespawnEvent
+- uid: System.Collections.Generic.List{ReferenceHub}
+  commentId: T:System.Collections.Generic.List{ReferenceHub}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReferenceHub>
+  nameWithType: List<ReferenceHub>
+  fullName: System.Collections.Generic.List<ReferenceHub>
+  nameWithType.vb: List(Of ReferenceHub)
+  fullName.vb: System.Collections.Generic.List(Of ReferenceHub)
+  name.vb: List(Of ReferenceHub)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ReferenceHub
+    name: ReferenceHub
+    nameWithType: ReferenceHub
+    fullName: ReferenceHub
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ReferenceHub
+    name: ReferenceHub
+    nameWithType: ReferenceHub
+    fullName: ReferenceHub
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

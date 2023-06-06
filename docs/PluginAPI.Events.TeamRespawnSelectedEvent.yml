@@ -17,12 +17,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TeamRespawnSelectedEvent
-    path: ../NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -62,12 +62,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -99,12 +99,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Team
-    path: ../NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -134,12 +134,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
+      path: NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/TeamRespawnSelectedEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Server/TeamRespawnSelectedEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

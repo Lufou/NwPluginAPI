@@ -19,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Scp914InventoryItemUpgradedEvent
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -64,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -136,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Item
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -171,12 +171,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: KnobSetting
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -206,12 +206,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
+      path: NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Scp914InventoryItemUpgradedEvent.cs
-    startLine: 42
+    path: ../NwPluginAPI/Events/Args/Scp914/Scp914InventoryItemUpgradedEvent.cs
+    startLine: 19
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

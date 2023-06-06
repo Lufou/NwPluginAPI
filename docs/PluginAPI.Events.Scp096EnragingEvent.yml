@@ -18,12 +18,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
+      path: NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Scp096EnragingEvent
-    path: ../NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -63,12 +63,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
+      path: NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -100,12 +100,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
+      path: NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -135,12 +135,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
+      path: NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: InitialDuration
-    path: ../NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -170,12 +170,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
+      path: NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/Scp096EnragingEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Scp096/Scp096EnragingEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

@@ -20,12 +20,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerThrowProjectileEvent
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 32
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -65,12 +65,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -102,12 +102,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Thrower
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 35
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -137,12 +137,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Item
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 37
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -172,12 +172,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ProjectileSettings
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 39
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -207,12 +207,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: FullForce
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 41
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 18
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -242,12 +242,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerThrowProjectileEvent.cs
-    startLine: 44
+    path: ../NwPluginAPI/Events/Args/Player/PlayerThrowProjectileEvent.cs
+    startLine: 21
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

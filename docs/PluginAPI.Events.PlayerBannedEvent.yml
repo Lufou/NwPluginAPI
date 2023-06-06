@@ -5,7 +5,8 @@ items:
   id: PlayerBannedEvent
   parent: PluginAPI.Events
   children:
-  - PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,CommandSystem.ICommandSender,System.String,System.Int64)
+  - PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,ReferenceHub,System.String,System.Int64)
+  - PluginAPI.Events.PlayerBannedEvent.#ctor(System.String,System.String,System.String,ReferenceHub,System.String,System.Int64)
   - PluginAPI.Events.PlayerBannedEvent.BaseType
   - PluginAPI.Events.PlayerBannedEvent.Duration
   - PluginAPI.Events.PlayerBannedEvent.Issuer
@@ -20,12 +21,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerBannedEvent
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -65,12 +66,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 10
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -102,21 +103,21 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public Player Player { get; }
+    content: public IPlayer Player { get; }
     parameters: []
     return:
-      type: PluginAPI.Core.Player
-    content.vb: Public ReadOnly Property Player As Player
+      type: PluginAPI.Core.Interfaces.IPlayer
+    content.vb: Public ReadOnly Property Player As IPlayer
   overload: PluginAPI.Events.PlayerBannedEvent.Player*
   modifiers.csharp:
   - public
@@ -137,21 +138,21 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Issuer
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public ICommandSender Issuer { get; }
+    content: public Player Issuer { get; }
     parameters: []
     return:
-      type: CommandSystem.ICommandSender
-    content.vb: Public ReadOnly Property Issuer As ICommandSender
+      type: PluginAPI.Core.Player
+    content.vb: Public ReadOnly Property Issuer As Player
   overload: PluginAPI.Events.PlayerBannedEvent.Issuer*
   modifiers.csharp:
   - public
@@ -172,12 +173,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Reason
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -207,12 +208,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Duration
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 17
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -229,40 +230,83 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,CommandSystem.ICommandSender,System.String,System.Int64)
-  commentId: M:PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,CommandSystem.ICommandSender,System.String,System.Int64)
-  id: '#ctor(ReferenceHub,CommandSystem.ICommandSender,System.String,System.Int64)'
+- uid: PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,ReferenceHub,System.String,System.Int64)
+  commentId: M:PluginAPI.Events.PlayerBannedEvent.#ctor(ReferenceHub,ReferenceHub,System.String,System.Int64)
+  id: '#ctor(ReferenceHub,ReferenceHub,System.String,System.Int64)'
   parent: PluginAPI.Events.PlayerBannedEvent
   langs:
   - csharp
   - vb
-  name: PlayerBannedEvent(ReferenceHub, ICommandSender, String, Int64)
-  nameWithType: PlayerBannedEvent.PlayerBannedEvent(ReferenceHub, ICommandSender, String, Int64)
-  fullName: PluginAPI.Events.PlayerBannedEvent.PlayerBannedEvent(ReferenceHub, CommandSystem.ICommandSender, System.String, System.Int64)
+  name: PlayerBannedEvent(ReferenceHub, ReferenceHub, String, Int64)
+  nameWithType: PlayerBannedEvent.PlayerBannedEvent(ReferenceHub, ReferenceHub, String, Int64)
+  fullName: PluginAPI.Events.PlayerBannedEvent.PlayerBannedEvent(ReferenceHub, ReferenceHub, System.String, System.Int64)
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerBannedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerBannedEvent.cs
-    startLine: 43
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 20
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
   syntax:
-    content: public PlayerBannedEvent(ReferenceHub hub, ICommandSender issuer, string reason, long duration)
+    content: public PlayerBannedEvent(ReferenceHub hub, ReferenceHub issuer, string reason, long duration)
     parameters:
     - id: hub
       type: ReferenceHub
     - id: issuer
-      type: CommandSystem.ICommandSender
+      type: ReferenceHub
     - id: reason
       type: System.String
     - id: duration
       type: System.Int64
-    content.vb: Public Sub New(hub As ReferenceHub, issuer As ICommandSender, reason As String, duration As Long)
+    content.vb: Public Sub New(hub As ReferenceHub, issuer As ReferenceHub, reason As String, duration As Long)
+  overload: PluginAPI.Events.PlayerBannedEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PluginAPI.Events.PlayerBannedEvent.#ctor(System.String,System.String,System.String,ReferenceHub,System.String,System.Int64)
+  commentId: M:PluginAPI.Events.PlayerBannedEvent.#ctor(System.String,System.String,System.String,ReferenceHub,System.String,System.Int64)
+  id: '#ctor(System.String,System.String,System.String,ReferenceHub,System.String,System.Int64)'
+  parent: PluginAPI.Events.PlayerBannedEvent
+  langs:
+  - csharp
+  - vb
+  name: PlayerBannedEvent(String, String, String, ReferenceHub, String, Int64)
+  nameWithType: PlayerBannedEvent.PlayerBannedEvent(String, String, String, ReferenceHub, String, Int64)
+  fullName: PluginAPI.Events.PlayerBannedEvent.PlayerBannedEvent(System.String, System.String, System.String, ReferenceHub, System.String, System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+      branch: 13.0.0
+      repo: https://github.com/northwood-studios/NwPluginAPI.git
+    id: .ctor
+    path: ../NwPluginAPI/Events/Args/Player/PlayerBannedEvent.cs
+    startLine: 28
+  assemblies:
+  - PluginAPI
+  namespace: PluginAPI.Events
+  syntax:
+    content: public PlayerBannedEvent(string userId, string nickName, string ipAddress, ReferenceHub issuer, string reason, long duration)
+    parameters:
+    - id: userId
+      type: System.String
+    - id: nickName
+      type: System.String
+    - id: ipAddress
+      type: System.String
+    - id: issuer
+      type: ReferenceHub
+    - id: reason
+      type: System.String
+    - id: duration
+      type: System.Int64
+    content.vb: Public Sub New(userId As String, nickName As String, ipAddress As String, issuer As ReferenceHub, reason As String, duration As Long)
   overload: PluginAPI.Events.PlayerBannedEvent.#ctor*
   modifiers.csharp:
   - public
@@ -599,6 +643,22 @@ references:
   name: Player
   nameWithType: PlayerBannedEvent.Player
   fullName: PluginAPI.Events.PlayerBannedEvent.Player
+- uid: PluginAPI.Core.Interfaces.IPlayer
+  commentId: T:PluginAPI.Core.Interfaces.IPlayer
+  parent: PluginAPI.Core.Interfaces
+  name: IPlayer
+  nameWithType: IPlayer
+  fullName: PluginAPI.Core.Interfaces.IPlayer
+- uid: PluginAPI.Core.Interfaces
+  commentId: N:PluginAPI.Core.Interfaces
+  name: PluginAPI.Core.Interfaces
+  nameWithType: PluginAPI.Core.Interfaces
+  fullName: PluginAPI.Core.Interfaces
+- uid: PluginAPI.Events.PlayerBannedEvent.Issuer*
+  commentId: Overload:PluginAPI.Events.PlayerBannedEvent.Issuer
+  name: Issuer
+  nameWithType: PlayerBannedEvent.Issuer
+  fullName: PluginAPI.Events.PlayerBannedEvent.Issuer
 - uid: PluginAPI.Core.Player
   commentId: T:PluginAPI.Core.Player
   parent: PluginAPI.Core
@@ -610,24 +670,6 @@ references:
   name: PluginAPI.Core
   nameWithType: PluginAPI.Core
   fullName: PluginAPI.Core
-- uid: PluginAPI.Events.PlayerBannedEvent.Issuer*
-  commentId: Overload:PluginAPI.Events.PlayerBannedEvent.Issuer
-  name: Issuer
-  nameWithType: PlayerBannedEvent.Issuer
-  fullName: PluginAPI.Events.PlayerBannedEvent.Issuer
-- uid: CommandSystem.ICommandSender
-  commentId: T:CommandSystem.ICommandSender
-  parent: CommandSystem
-  isExternal: true
-  name: ICommandSender
-  nameWithType: ICommandSender
-  fullName: CommandSystem.ICommandSender
-- uid: CommandSystem
-  commentId: N:CommandSystem
-  isExternal: true
-  name: CommandSystem
-  nameWithType: CommandSystem
-  fullName: CommandSystem
 - uid: PluginAPI.Events.PlayerBannedEvent.Reason*
   commentId: Overload:PluginAPI.Events.PlayerBannedEvent.Reason
   name: Reason

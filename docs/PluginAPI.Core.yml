@@ -12,11 +12,13 @@ items:
   - PluginAPI.Core.FactoryManager
   - PluginAPI.Core.Log
   - PluginAPI.Core.Map
+  - PluginAPI.Core.OfflinePlayer
   - PluginAPI.Core.Player
   - PluginAPI.Core.PlayerExtensions
   - PluginAPI.Core.PlayerInfo
   - PluginAPI.Core.PlayerSharedStorage
   - PluginAPI.Core.PluginHandler
+  - PluginAPI.Core.ReservedSlots
   - PluginAPI.Core.Respawn
   - PluginAPI.Core.RoomLight
   - PluginAPI.Core.Round
@@ -26,6 +28,7 @@ items:
   - PluginAPI.Core.Statistics.Peak
   - PluginAPI.Core.Statistics.Round
   - PluginAPI.Core.Warhead
+  - PluginAPI.Core.Whitelist
   langs:
   - csharp
   - vb
@@ -85,6 +88,11 @@ references:
   name: Map
   nameWithType: Map
   fullName: PluginAPI.Core.Map
+- uid: PluginAPI.Core.OfflinePlayer
+  commentId: T:PluginAPI.Core.OfflinePlayer
+  name: OfflinePlayer
+  nameWithType: OfflinePlayer
+  fullName: PluginAPI.Core.OfflinePlayer
 - uid: PluginAPI.Core.Player
   commentId: T:PluginAPI.Core.Player
   parent: PluginAPI.Core
@@ -108,6 +116,11 @@ references:
   name: PluginHandler
   nameWithType: PluginHandler
   fullName: PluginAPI.Core.PluginHandler
+- uid: PluginAPI.Core.ReservedSlots
+  commentId: T:PluginAPI.Core.ReservedSlots
+  name: ReservedSlots
+  nameWithType: ReservedSlots
+  fullName: PluginAPI.Core.ReservedSlots
 - uid: PluginAPI.Core.Respawn
   commentId: T:PluginAPI.Core.Respawn
   name: Respawn
@@ -158,6 +171,11 @@ references:
   name: Warhead
   nameWithType: Warhead
   fullName: PluginAPI.Core.Warhead
+- uid: PluginAPI.Core.Whitelist
+  commentId: T:PluginAPI.Core.Whitelist
+  name: Whitelist
+  nameWithType: Whitelist
+  fullName: PluginAPI.Core.Whitelist
 - uid: PluginAPI.Core
   commentId: N:PluginAPI.Core
   name: PluginAPI.Core

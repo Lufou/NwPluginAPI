@@ -21,12 +21,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerGameConsoleCommandExecutedEvent
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 6
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -66,12 +66,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 8
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -103,12 +103,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -138,12 +138,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Command
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -173,12 +173,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Arguments
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 13
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -208,12 +208,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Result
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 40
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -243,12 +243,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Response
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 42
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 17
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -278,12 +278,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerGameConsoleCommandExecutedEvent.cs
-    startLine: 45
+    path: ../NwPluginAPI/Events/Args/Player/PlayerGameConsoleCommandExecutedEvent.cs
+    startLine: 20
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events

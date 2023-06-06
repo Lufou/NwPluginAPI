@@ -161,7 +161,7 @@ namespace PluginAPI.Core
 		/// </summary>
 		public static void TurnOffAllLights(float duration = 0)
 		{
-			foreach (RoomLightController flickerableLightController in RoomLightController.Instances)
+			foreach (FlickerableLightController flickerableLightController in FlickerableLightController.Instances)
 			{
 				if (duration > 0)
 				{
@@ -180,7 +180,7 @@ namespace PluginAPI.Core
 		/// </summary>
 		public static void TurnOnAllLights()
 		{
-			foreach (RoomLightController flickerableLightController in RoomLightController.Instances)
+			foreach (FlickerableLightController flickerableLightController in FlickerableLightController.Instances)
 			{
 				flickerableLightController.NetworkLightsEnabled = true;
 			}

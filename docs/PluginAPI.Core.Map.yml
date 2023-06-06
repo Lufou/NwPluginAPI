@@ -7,9 +7,9 @@ items:
   children:
   - PluginAPI.Core.Map.Broadcast(System.UInt16,System.String,Broadcast.BroadcastFlags,System.Boolean)
   - PluginAPI.Core.Map.Cameras
-  - PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color,System.Single)
-  - PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone,System.Single)
-  - PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone},System.Single)
+  - PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color)
+  - PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone)
+  - PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone})
   - PluginAPI.Core.Map.ClearBroadcasts
   - PluginAPI.Core.Map.DecontaminationStatus
   - PluginAPI.Core.Map.Elevators
@@ -43,7 +43,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Map
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 17
+    startLine: 15
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -87,7 +87,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Seed
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 22
+    startLine: 20
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -126,7 +126,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Rooms
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 27
+    startLine: 25
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -165,7 +165,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Cameras
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 35
+    startLine: 33
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -205,7 +205,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PocketDimensionTeleports
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 43
+    startLine: 41
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -245,7 +245,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Lockers
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 51
+    startLine: 49
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -285,7 +285,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Elevators
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 59
+    startLine: 57
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -325,7 +325,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TeslaGates
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 67
+    startLine: 65
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -365,7 +365,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Generators
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 75
+    startLine: 73
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -405,7 +405,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Broadcast
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 84
+    startLine: 82
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -452,7 +452,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ClearBroadcasts
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 95
+    startLine: 93
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -486,7 +486,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ForceDecontamination
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 100
+    startLine: 98
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -520,7 +520,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: DecontaminationStatus
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 108
+    startLine: 106
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -559,7 +559,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: GetRandomRoom
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 125
+    startLine: 123
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -600,7 +600,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: FlickerLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 140
+    startLine: 138
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -641,7 +641,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: FlickerLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 155
+    startLine: 153
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -685,7 +685,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: FlickerAllLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 167
+    startLine: 165
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -723,7 +723,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TurnOnAllLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 182
+    startLine: 180
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -757,7 +757,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TurnOnLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 194
+    startLine: 192
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -795,7 +795,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: TurnOnLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 207
+    startLine: 205
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -818,16 +818,16 @@ items:
   - Shared
   fullName.vb: PluginAPI.Core.Map.TurnOnLights(System.Collections.Generic.IEnumerable(Of MapGeneration.FacilityZone))
   name.vb: TurnOnLights(IEnumerable(Of FacilityZone))
-- uid: PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color,System.Single)
-  commentId: M:PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color,System.Single)
-  id: ChangeColorOfAllLights(UnityEngine.Color,System.Single)
+- uid: PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color)
+  commentId: M:PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color)
+  id: ChangeColorOfAllLights(UnityEngine.Color)
   parent: PluginAPI.Core.Map
   langs:
   - csharp
   - vb
-  name: ChangeColorOfAllLights(Color, Single)
-  nameWithType: Map.ChangeColorOfAllLights(Color, Single)
-  fullName: PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color, System.Single)
+  name: ChangeColorOfAllLights(Color)
+  nameWithType: Map.ChangeColorOfAllLights(Color)
+  fullName: PluginAPI.Core.Map.ChangeColorOfAllLights(UnityEngine.Color)
   type: Method
   source:
     remote:
@@ -836,22 +836,19 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ChangeColorOfAllLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 224
+    startLine: 221
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
   summary: "\nChanges the color of all lights on the map\n"
   example: []
   syntax:
-    content: public static void ChangeColorOfAllLights(Color color, float intensity = 0F)
+    content: public static void ChangeColorOfAllLights(Color color)
     parameters:
     - id: color
       type: UnityEngine.Color
       description: <xref href="UnityEngine.Color" data-throw-if-not-resolved="false"></xref> of the lights
-    - id: intensity
-      type: System.Single
-      description: Light intensity
-    content.vb: Public Shared Sub ChangeColorOfAllLights(color As Color, intensity As Single = 0F)
+    content.vb: Public Shared Sub ChangeColorOfAllLights(color As Color)
   overload: PluginAPI.Core.Map.ChangeColorOfAllLights*
   modifiers.csharp:
   - public
@@ -859,16 +856,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone,System.Single)
-  commentId: M:PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone,System.Single)
-  id: ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone,System.Single)
+- uid: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone)
+  commentId: M:PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone)
+  id: ChangeColorOfLights(UnityEngine.Color,MapGeneration.FacilityZone)
   parent: PluginAPI.Core.Map
   langs:
   - csharp
   - vb
-  name: ChangeColorOfLights(Color, FacilityZone, Single)
-  nameWithType: Map.ChangeColorOfLights(Color, FacilityZone, Single)
-  fullName: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, MapGeneration.FacilityZone, System.Single)
+  name: ChangeColorOfLights(Color, FacilityZone)
+  nameWithType: Map.ChangeColorOfLights(Color, FacilityZone)
+  fullName: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, MapGeneration.FacilityZone)
   type: Method
   source:
     remote:
@@ -877,22 +874,20 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ChangeColorOfLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 237
+    startLine: 232
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
   summary: "\nChanges the color of the lights in a specific zone\n"
   example: []
   syntax:
-    content: public static void ChangeColorOfLights(Color color, FacilityZone zone, float intensity = 0F)
+    content: public static void ChangeColorOfLights(Color color, FacilityZone zone)
     parameters:
     - id: color
       type: UnityEngine.Color
     - id: zone
       type: MapGeneration.FacilityZone
-    - id: intensity
-      type: System.Single
-    content.vb: Public Shared Sub ChangeColorOfLights(color As Color, zone As FacilityZone, intensity As Single = 0F)
+    content.vb: Public Shared Sub ChangeColorOfLights(color As Color, zone As FacilityZone)
   overload: PluginAPI.Core.Map.ChangeColorOfLights*
   modifiers.csharp:
   - public
@@ -900,16 +895,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone},System.Single)
-  commentId: M:PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone},System.Single)
-  id: ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone},System.Single)
+- uid: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone})
+  commentId: M:PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone})
+  id: ChangeColorOfLights(UnityEngine.Color,System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone})
   parent: PluginAPI.Core.Map
   langs:
   - csharp
   - vb
-  name: ChangeColorOfLights(Color, IEnumerable<FacilityZone>, Single)
-  nameWithType: Map.ChangeColorOfLights(Color, IEnumerable<FacilityZone>, Single)
-  fullName: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, System.Collections.Generic.IEnumerable<MapGeneration.FacilityZone>, System.Single)
+  name: ChangeColorOfLights(Color, IEnumerable<FacilityZone>)
+  nameWithType: Map.ChangeColorOfLights(Color, IEnumerable<FacilityZone>)
+  fullName: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, System.Collections.Generic.IEnumerable<MapGeneration.FacilityZone>)
   type: Method
   source:
     remote:
@@ -918,32 +913,30 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ChangeColorOfLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 253
+    startLine: 246
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
   summary: "\nChanges the color of the lights in a specific zones\n"
   example: []
   syntax:
-    content: public static void ChangeColorOfLights(Color color, IEnumerable<FacilityZone> zones, float intensity = 0F)
+    content: public static void ChangeColorOfLights(Color color, IEnumerable<FacilityZone> zones)
     parameters:
     - id: color
       type: UnityEngine.Color
     - id: zones
       type: System.Collections.Generic.IEnumerable{MapGeneration.FacilityZone}
-    - id: intensity
-      type: System.Single
-    content.vb: Public Shared Sub ChangeColorOfLights(color As Color, zones As IEnumerable(Of FacilityZone), intensity As Single = 0F)
+    content.vb: Public Shared Sub ChangeColorOfLights(color As Color, zones As IEnumerable(Of FacilityZone))
   overload: PluginAPI.Core.Map.ChangeColorOfLights*
-  nameWithType.vb: Map.ChangeColorOfLights(Color, IEnumerable(Of FacilityZone), Single)
+  nameWithType.vb: Map.ChangeColorOfLights(Color, IEnumerable(Of FacilityZone))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, System.Collections.Generic.IEnumerable(Of MapGeneration.FacilityZone), System.Single)
-  name.vb: ChangeColorOfLights(Color, IEnumerable(Of FacilityZone), Single)
+  fullName.vb: PluginAPI.Core.Map.ChangeColorOfLights(UnityEngine.Color, System.Collections.Generic.IEnumerable(Of MapGeneration.FacilityZone))
+  name.vb: ChangeColorOfLights(Color, IEnumerable(Of FacilityZone))
 - uid: PluginAPI.Core.Map.ResetColorOfAllLights
   commentId: M:PluginAPI.Core.Map.ResetColorOfAllLights
   id: ResetColorOfAllLights
@@ -962,7 +955,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ResetColorOfAllLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 268
+    startLine: 261
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core
@@ -996,7 +989,7 @@ items:
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: ResetColorOfLights
     path: ../NwPluginAPI/Core/Map.cs
-    startLine: 281
+    startLine: 274
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Core

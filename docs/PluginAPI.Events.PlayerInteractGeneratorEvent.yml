@@ -19,12 +19,12 @@ items:
   type: Class
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: PlayerInteractGeneratorEvent
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 31
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 9
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -64,12 +64,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: BaseType
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 33
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 11
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -101,12 +101,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Player
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 34
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 12
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -136,12 +136,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: Generator
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 36
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 14
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -171,12 +171,12 @@ items:
   type: Property
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: GeneratorColliderId
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 38
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 16
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
@@ -206,12 +206,12 @@ items:
   type: Constructor
   source:
     remote:
-      path: NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
+      path: NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
       branch: 13.0.0
       repo: https://github.com/northwood-studios/NwPluginAPI.git
     id: .ctor
-    path: ../NwPluginAPI/Events/Args/PlayerInteractGeneratorEvent.cs
-    startLine: 41
+    path: ../NwPluginAPI/Events/Args/Player/PlayerInteractGeneratorEvent.cs
+    startLine: 19
   assemblies:
   - PluginAPI
   namespace: PluginAPI.Events
